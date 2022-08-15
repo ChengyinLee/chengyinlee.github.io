@@ -21,7 +21,7 @@ papers:
     paper_pdf: "/assets/publications/2022_adv_meidcal_classification/SGAicml2022w.pdf"
     selected: y
 
-  - title: "Saliency Guided Adversarial Training for Tackling Generalization Gap with Applications to Medical Imaging Classification System"
+  - title: "COVID-MobileXpert: On-Device COVID-19 Screening using Snapshots of Chest X-Ray"
     authors: Xin Li, <b>Chengyin Li</b>, Dongxiao Zhu
     venue: "BIBM'20: In the proceedings of 2020 International Conference on Bioinformatics and Biomedicine 2020"
     paper_pdf: "/assets/publications/2020_covid_xpert/covid_xpert.pdf"
