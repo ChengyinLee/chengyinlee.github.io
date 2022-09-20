@@ -14,6 +14,20 @@ papers:
     paper_pdf: "/assets/publications/2022_fairness_explainability_CAI/paper_CAI.pdf"
     # code: "https://github.com/facebookresearch/social-catalysts"
     selected: y
+  
+  - title: "AttCAT: Explaining Transformers via Attentive Class Activation Tokens"
+    authors: Yao Qiang, Deng Pan, <b>Chengyin Li</b>, Xin Li, Rhongho Jang,Dongxiao Zhu
+    venue: "NeurIPS'22: The Conference and Workshop on Neural Information Processing Systems 2022"
+    paper_pdf: "/assets/publications/2022_AttCAT/paper_AttCAT.pdf"
+    # code: "https://github.com/facebookresearch/social-catalysts"
+    selected: y
+    
+  - title: "Putting the “mi” in Omics: Discovering miRNA Biomarkers for Pediatric Precision Care"
+    authors: <b>Chengyin Li</b>, Rhea E. Sullivan, Dongxiao Zhu and Steven D. Hicks
+    venue: "Pediatric Research"
+    # paper_pdf: "/assets/publications/2022_AttCAT/paper_AttCAT.pdf"
+    # code: "https://github.com/facebookresearch/social-catalysts"
+    selected: y
 
   - title: "Saliency Guided Adversarial Training for Tackling Generalization Gap with Applications to Medical Imaging Classification System"
     authors: Xin Li, Yao, Qiang, <b>Chengyin Li</b>, Sijia Liu, Dongxiao Zhu
