@@ -43,3 +43,12 @@ papers:
     video: "https://www.youtube.com/watch?v=GWRhMH-N9Tc"
     selected: y
 
+    - title: "FocalUNETR: A Focal Transformer for Boundary-aware Segmentation of CT Images"
+    authors: <b>Chengyin Li</b>, Yao Qiang, Rafi Lbn Sultan, Hassan Bagher-Ebadian, Prashant Khanduri, Indrin J. Chetty, and Dongxiao Zhu
+    venue: "MICCAI 2023"
+    paper_pdf: "/assets/publications/2020_covid_xpert/covid_xpert.pdf"
+    code: "https://github.com/ChengyinLee/COVID-MobileXpert"
+    video: "https://www.youtube.com/watch?v=GWRhMH-N9Tc"
+    selected: y
+
+
