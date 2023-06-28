@@ -25,7 +25,7 @@ papers:
   - title: "Putting the “mi” in Omics: Discovering miRNA Biomarkers for Pediatric Precision Care"
     authors: <b>Chengyin Li</b>, Rhea E. Sullivan, Dongxiao Zhu and Steven D. Hicks
     venue: "Pediatric Research"
-    paper_pdf: "/assets/publications/2022_AttCAT/paper_AttCAT.pdf"
+    paper_pdf: "/assets/publications/2022_putting_mi/nihms-1822147.pdf"
     # code: "https://github.com/facebookresearch/social-catalysts"
     selected: y
 
