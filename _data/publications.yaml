@@ -29,12 +29,6 @@ papers:
     # code: "https://github.com/facebookresearch/social-catalysts"
     selected: y
 
-  - title: "Saliency Guided Adversarial Training for Tackling Generalization Gap with Applications to Medical Imaging Classification System"
-    authors: Xin Li, Yao, Qiang, <b>Chengyin Li</b>, Sijia Liu, Dongxiao Zhu
-    venue: "AdVMLF RONTIERS in ICML'22: NEW FRONTIERS IN ADVERSARIAL MACHINE LEARNING 2022"
-    paper_pdf: "/assets/publications/2022_adv_meidcal_classification/SGAicml2022w.pdf"
-    selected: y
-
   - title: "COVID-MobileXpert: On-Device COVID-19 Screening using Snapshots of Chest X-Ray"
     authors: Xin Li, <b>Chengyin Li</b>, Dongxiao Zhu
     venue: "BIBM'20: In the proceedings of 2020 International Conference on Bioinformatics and Biomedicine 2020"
@@ -49,6 +43,12 @@ papers:
     paper_pdf: "/assets/publications/2020_covid_xpert/covid_xpert.pdf"
     code: "https://github.com/ChengyinLee/COVID-MobileXpert"
     video: "https://www.youtube.com/watch?v=GWRhMH-N9Tc"
+    selected: y
+
+  - title: "Saliency Guided Adversarial Training for Tackling Generalization Gap with Applications to Medical Imaging Classification System"
+    authors: Xin Li, Yao Qiang, <b>Chengyin Li</b>, Sijia Liu, and Dongxiao Zhu
+    venue: "AdvML-Frontiers 2022 in ICML"
+    paper_pdf: "/assets/publications/2022_adv_meidcal_classification/SGAicml2022w.pdf"
     selected: y
 
 
