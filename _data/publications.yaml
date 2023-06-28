@@ -31,7 +31,7 @@ papers:
 
   - title: "Saliency Guided Adversarial Training for Tackling Generalization Gap with Applications to Medical Imaging Classification System"
     authors: Xin Li, Yao, Qiang, <b>Chengyin Li</b>, Sijia Liu, Dongxiao Zhu
-    venue: "AdVMLF RONTIERS @ ICML'22: NEW FRONTIERS IN ADVERSARIAL MACHINE LEARNING 2022"
+    venue: "AdVMLF RONTIERS in ICML'22: NEW FRONTIERS IN ADVERSARIAL MACHINE LEARNING 2022"
     paper_pdf: "/assets/publications/2022_adv_meidcal_classification/SGAicml2022w.pdf"
     selected: y
 
