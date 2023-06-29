@@ -87,7 +87,7 @@ title: Home
       {% for paper in selected_papers %}
       <div>
         <div class="figure">
-          <img style="float:left;margin-bottom:20px;margin-right:30px;vertical-align:middle;" src="/assets/publications/2020_covid_xpert/example.png" width="220" height="110">
+          <img style="float:left;margin-bottom:20px;margin-right:30px;vertical-align:middle;" src={{paper.paper_img}} width="220" height="110">
         </div>
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
@@ -128,7 +128,7 @@ title: Home
       {% for paper in site.data.publications.papers %}
       <div>
         <div class="figure">
-          <img style="float:left;margin-bottom:20px;margin-right:30px;vertical-align:middle;" src="/assets/publications/2020_covid_xpert/example.png" width="220" height="110">
+          <img style="float:left;margin-bottom:20px;margin-right:30px;vertical-align:middle;" src={{paper.paper_img}} width="220" height="110">
         </div>
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>

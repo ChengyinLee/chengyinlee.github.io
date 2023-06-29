@@ -3,6 +3,7 @@ papers:
     authors: "<b>Chengyin Li</b>, Zheng Dong, Fisher Nathan, Dongxiao Zhu"
     venue: "ECML'22: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 2022"
     paper_pdf: "/assets/publications/2022_ev_charging_rec/RACev.pdf"
+    paper_img: "/assets/publications/2022_ev_charging_rec/RACev.png"
     # code: "https://github.com/msaveski/toxic_conversation_structure"
     # data: "https://doi.org/10.7910/DVN/TRWPVB"
     # video: "https://www.youtube.com/watch?v=JLkUgxH92pE"
@@ -12,6 +13,7 @@ papers:
     authors: Yao Qiang, <b>Chengyin Li</b>, Marco Brocanelli, Dongxiao Zhu
     venue: "IJCAI'22: International Joint Conference on Artificial Intelligence 2022"
     paper_pdf: "/assets/publications/2022_fairness_explainability_CAI/paper_CAI.pdf"
+    paper_img: "/assets/publications/2022_fairness_explainability_CAI/paper_CAI.png"
     # code: "https://github.com/facebookresearch/social-catalysts"
     selected: y
   
@@ -19,6 +21,7 @@ papers:
     authors: Yao Qiang, Deng Pan, <b>Chengyin Li</b>, Xin Li, Rhongho Jang,Dongxiao Zhu
     venue: "NeurIPS'22: The Conference and Workshop on Neural Information Processing Systems 2022"
     paper_pdf: "/assets/publications/2022_AttCAT/paper_AttCAT.pdf"
+    paper_img: "/assets/publications/2022_AttCAT/paper_AttCAT.png"
     # code: "https://github.com/facebookresearch/social-catalysts"
     selected: y
     
@@ -26,6 +29,7 @@ papers:
     authors: <b>Chengyin Li</b>, Rhea E. Sullivan, Dongxiao Zhu and Steven D. Hicks
     venue: "Pediatric Research"
     paper_pdf: "/assets/publications/2022_putting_mi/nihms-1822147.pdf"
+    paper_img: "/assets/publications/2022_putting_mi/nihms-1822147.png"
     # code: "https://github.com/facebookresearch/social-catalysts"
     selected: y
 
@@ -33,6 +37,7 @@ papers:
     authors: Xin Li, <b>Chengyin Li</b>, Dongxiao Zhu
     venue: "BIBM'20: In the proceedings of 2020 International Conference on Bioinformatics and Biomedicine 2020"
     paper_pdf: "/assets/publications/2020_covid_xpert/covid_xpert.pdf"
+    paper_img: "/assets/publications/2020_covid_xpert/covid_xpert.png"
     code: "https://github.com/ChengyinLee/COVID-MobileXpert"
     video: "https://www.youtube.com/watch?v=GWRhMH-N9Tc"
     selected: y
@@ -40,15 +45,32 @@ papers:
   - title: "FocalUNETR: A Focal Transformer for Boundary-aware Segmentation of CT Images"
     authors: <b>Chengyin Li</b>, Yao Qiang, Rafi Lbn Sultan, Hassan Bagher-Ebadian, Prashant Khanduri, Indrin J. Chetty, and Dongxiao Zhu
     venue: "MICCAI 2023"
-    paper_pdf: "/assets/publications/2020_covid_xpert/covid_xpert.pdf"
-    code: "https://github.com/ChengyinLee/COVID-MobileXpert"
-    video: "https://www.youtube.com/watch?v=GWRhMH-N9Tc"
+    paper_pdf: "/assets/publications/2023_focalunetr/2023_focalunetr.pdf"
+    paper_img: "/assets/publications/2023_focalunetr/2023_focalunetr.png"
+
+    # code: "https://github.com/ChengyinLee/COVID-MobileXpert"
+    # video: "https://www.youtube.com/watch?v=GWRhMH-N9Tc"
     selected: y
 
   - title: "Saliency Guided Adversarial Training for Tackling Generalization Gap with Applications to Medical Imaging Classification System"
     authors: Xin Li, Yao Qiang, <b>Chengyin Li</b>, Sijia Liu, and Dongxiao Zhu
     venue: "AdvML-Frontiers 2022 in ICML"
-    paper_pdf: "/assets/publications/2022_adv_meidcal_classification/SGAicml2022w.pdf"
+    paper_pdf: "/assets/publications/2022_adv_ml/SGAicml2022w.pdf"
+    paper_img: "/assets/publications/2022_adv_ml/SGAicml2022w.png"
+    selected: y
+
+  - title: "Negative Flux Aggregation to Estimate Feature Attributions"
+    authors: Xin Li, Deng Pan, <b>Chengyin Li</b>, Yao Qiang, and Dongxiao Zhu
+    venue: "IJCAI 2023"
+    paper_pdf: "/assets/publications/2023_NeFLAG/2023_NeFLAG.pdf"
+    paper_img: "/assets/publications/2023_NeFLAG/2023_NeFLAG.png"
+    selected: y
+  
+  - title: "Proximal Composite Optimization for Distributionally Robust Learning"
+    authors: Prashant Khanduri, <b>Chengyin Li</b>, Rafi Ibn Sultan, Yao Qiang, Joerg Kliewer, and Dongxiao Zhu
+    venue: "AdvML-Frontiers 2023 in ICML"
+    paper_pdf: "/assets/publications/2023_adv_ml/2023_adv_ml_Prox_DRO.pdf"
+    paper_img: "/assets/publications/2023_adv_ml/2023_adv_ml_Prox_DRO.png"
     selected: y
 
 
