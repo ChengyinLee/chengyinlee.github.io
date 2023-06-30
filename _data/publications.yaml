@@ -1,4 +1,27 @@
 papers:
+  - title: "FocalUNETR: A Focal Transformer for Boundary-aware Segmentation of CT Images"
+    authors: <b>Chengyin Li</b>, Yao Qiang, Rafi Lbn Sultan, Hassan Bagher-Ebadian, Prashant Khanduri, Indrin J. Chetty, and Dongxiao Zhu
+    venue: "MICCAI 2023"
+    paper_pdf: "/assets/publications/2023_focalunetr/2023_focalunetr.pdf"
+    paper_img: "/assets/publications/2023_focalunetr/2023_focalunetr.png"
+    # code: "https://github.com/ChengyinLee/COVID-MobileXpert"
+    # video: "https://www.youtube.com/watch?v=GWRhMH-N9Tc"
+    selected: y
+
+  - title: "Negative Flux Aggregation to Estimate Feature Attributions"
+    authors: Xin Li, Deng Pan, <b>Chengyin Li</b>, Yao Qiang, and Dongxiao Zhu
+    venue: "IJCAI 2023"
+    paper_pdf: "/assets/publications/2023_NeFLAG/2023_NeFLAG.pdf"
+    paper_img: "/assets/publications/2023_NeFLAG/2023_NeFLAG.png"
+    selected: y
+  
+  - title: "Proximal Composite Optimization for Distributionally Robust Learning"
+    authors: Prashant Khanduri, <b>Chengyin Li</b>, Rafi Ibn Sultan, Yao Qiang, Joerg Kliewer, and Dongxiao Zhu
+    venue: "AdvML-Frontiers 2023 in ICML"
+    paper_pdf: "/assets/publications/2023_adv_ml/2023_adv_ml_Prox_DRO.pdf"
+    paper_img: "/assets/publications/2023_adv_ml/2023_adv_ml_Prox_DRO.png"
+    selected: y
+  
   - title: "Coupling User Preference with External Rewards to Enable Driver-centered and Resource-aware EV Charging Recommendation"
     authors: "<b>Chengyin Li</b>, Zheng Dong, Fisher Nathan, Dongxiao Zhu"
     venue: "ECML'22: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 2022"
@@ -7,6 +30,14 @@ papers:
     # code: "https://github.com/msaveski/toxic_conversation_structure"
     # data: "https://doi.org/10.7910/DVN/TRWPVB"
     # video: "https://www.youtube.com/watch?v=JLkUgxH92pE"
+    selected: y
+  
+  - title: "Putting the “mi” in Omics: Discovering miRNA Biomarkers for Pediatric Precision Care"
+    authors: <b>Chengyin Li</b>, Rhea E. Sullivan, Dongxiao Zhu and Steven D. Hicks
+    venue: "Pediatric Research"
+    paper_pdf: "/assets/publications/2022_putting_mi/nihms-1822147.pdf"
+    paper_img: "/assets/publications/2022_putting_mi/nihms-1822147.png"
+    # code: "https://github.com/facebookresearch/social-catalysts"
     selected: y
 
   - title: "Counterfactual Interpolation Augmentation (CIA): A Unifed Approach to Enhance Fairness and Explainability of DNN"
@@ -24,13 +55,12 @@ papers:
     paper_img: "/assets/publications/2022_AttCAT/paper_AttCAT.png"
     # code: "https://github.com/facebookresearch/social-catalysts"
     selected: y
-    
-  - title: "Putting the “mi” in Omics: Discovering miRNA Biomarkers for Pediatric Precision Care"
-    authors: <b>Chengyin Li</b>, Rhea E. Sullivan, Dongxiao Zhu and Steven D. Hicks
-    venue: "Pediatric Research"
-    paper_pdf: "/assets/publications/2022_putting_mi/nihms-1822147.pdf"
-    paper_img: "/assets/publications/2022_putting_mi/nihms-1822147.png"
-    # code: "https://github.com/facebookresearch/social-catalysts"
+
+  - title: "Saliency Guided Adversarial Training for Tackling Generalization Gap with Applications to Medical Imaging Classification System"
+    authors: Xin Li, Yao Qiang, <b>Chengyin Li</b>, Sijia Liu, and Dongxiao Zhu
+    venue: "AdvML-Frontiers 2022 in ICML"
+    paper_pdf: "/assets/publications/2022_adv_ml/SGAicml2022w.pdf"
+    paper_img: "/assets/publications/2022_adv_ml/SGAicml2022w.png"
     selected: y
 
   - title: "COVID-MobileXpert: On-Device COVID-19 Screening using Snapshots of Chest X-Ray"
@@ -41,36 +71,3 @@ papers:
     code: "https://github.com/ChengyinLee/COVID-MobileXpert"
     video: "https://www.youtube.com/watch?v=GWRhMH-N9Tc"
     selected: y
-
-  - title: "FocalUNETR: A Focal Transformer for Boundary-aware Segmentation of CT Images"
-    authors: <b>Chengyin Li</b>, Yao Qiang, Rafi Lbn Sultan, Hassan Bagher-Ebadian, Prashant Khanduri, Indrin J. Chetty, and Dongxiao Zhu
-    venue: "MICCAI 2023"
-    paper_pdf: "/assets/publications/2023_focalunetr/2023_focalunetr.pdf"
-    paper_img: "/assets/publications/2023_focalunetr/2023_focalunetr.png"
-
-    # code: "https://github.com/ChengyinLee/COVID-MobileXpert"
-    # video: "https://www.youtube.com/watch?v=GWRhMH-N9Tc"
-    selected: y
-
-  - title: "Saliency Guided Adversarial Training for Tackling Generalization Gap with Applications to Medical Imaging Classification System"
-    authors: Xin Li, Yao Qiang, <b>Chengyin Li</b>, Sijia Liu, and Dongxiao Zhu
-    venue: "AdvML-Frontiers 2022 in ICML"
-    paper_pdf: "/assets/publications/2022_adv_ml/SGAicml2022w.pdf"
-    paper_img: "/assets/publications/2022_adv_ml/SGAicml2022w.png"
-    selected: y
-
-  - title: "Negative Flux Aggregation to Estimate Feature Attributions"
-    authors: Xin Li, Deng Pan, <b>Chengyin Li</b>, Yao Qiang, and Dongxiao Zhu
-    venue: "IJCAI 2023"
-    paper_pdf: "/assets/publications/2023_NeFLAG/2023_NeFLAG.pdf"
-    paper_img: "/assets/publications/2023_NeFLAG/2023_NeFLAG.png"
-    selected: y
-  
-  - title: "Proximal Composite Optimization for Distributionally Robust Learning"
-    authors: Prashant Khanduri, <b>Chengyin Li</b>, Rafi Ibn Sultan, Yao Qiang, Joerg Kliewer, and Dongxiao Zhu
-    venue: "AdvML-Frontiers 2023 in ICML"
-    paper_pdf: "/assets/publications/2023_adv_ml/2023_adv_ml_Prox_DRO.pdf"
-    paper_img: "/assets/publications/2023_adv_ml/2023_adv_ml_Prox_DRO.png"
-    selected: y
-
-
