@@ -1,18 +1,19 @@
 papers:
-  # - title: "FocalUNETR: A Focal Transformer for Boundary-aware Segmentation of CT Images"
-  #   authors: <b>Chengyin Li</b>, Yao Qiang, Rafi Lbn Sultan, Hassan Bagher-Ebadian, Prashant Khanduri, Indrin J. Chetty, and Dongxiao Zhu
-  #   venue: "MICCAI 2023: International Conference on Medical Image Computing and Computer Assisted Intervention"
-  #   paper_pdf: "/assets/publications/2023_focalunetr/2023_focalunetr.pdf"
-  #   paper_img: "/assets/publications/2023_focalunetr/2023_focalunetr.png"
-  #   # code: "https://github.com/ChengyinLee/COVID-MobileXpert"
-  #   # video: "https://www.youtube.com/watch?v=GWRhMH-N9Tc"
-  #   selected: y
-  - title: "Negative Flux Aggregation to Estimate Feature Attributions"
-    authors: Xin Li, Deng Pan, <b>Chengyin Li</b>, Yao Qiang, and Dongxiao Zhu
-    venue: "IJCAI 2023: International Joint Conference on Artificial Intelligence"
-    paper_pdf: "/assets/publications/2023_NeFLAG/2023_NeFLAG.pdf"
-    paper_img: "/assets/publications/2023_NeFLAG/2023_NeFLAG.png"
+  - title: "FocalUNETR: A Focal Transformer for Boundary-aware Segmentation of CT Images"
+    authors: <b>Chengyin Li</b>, Yao Qiang, Rafi Lbn Sultan, Hassan Bagher-Ebadian, Prashant Khanduri, Indrin J. Chetty, and Dongxiao Zhu
+    # venue: "MICCAI 2023: International Conference on Medical Image Computing and Computer Assisted Intervention"
+    venue: "MICCAI 2023"
+    paper_pdf: "/assets/publications/2023_focalunetr/2023_focalunetr.pdf"
+    paper_img: "/assets/publications/2023_focalunetr/2023_focalunetr.png"
+    # code: "https://github.com/ChengyinLee/COVID-MobileXpert"
+    # video: "https://www.youtube.com/watch?v=GWRhMH-N9Tc"
     selected: y
+  # - title: "Negative Flux Aggregation to Estimate Feature Attributions"
+  #   authors: Xin Li, Deng Pan, <b>Chengyin Li</b>, Yao Qiang, and Dongxiao Zhu
+  #   venue: "IJCAI 2023: International Joint Conference on Artificial Intelligence"
+  #   paper_pdf: "/assets/publications/2023_NeFLAG/2023_NeFLAG.pdf"
+  #   paper_img: "/assets/publications/2023_NeFLAG/2023_NeFLAG.png"
+  #   selected: y
 
   - title: "Negative Flux Aggregation to Estimate Feature Attributions"
     authors: Xin Li, Deng Pan, <b>Chengyin Li</b>, Yao Qiang, and Dongxiao Zhu
