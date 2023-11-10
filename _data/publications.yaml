@@ -15,26 +15,18 @@ papers:
   #   paper_img: "/assets/publications/2023_NeFLAG/2023_NeFLAG.png"
   #   selected: y
 
+  - title: "A new architecture combining convolutional and transformer-based networks for automatic 3D multi-organ segmentation on CT images"
+    authors: <b>Chengyin Li</b>, Hassan Bagher-Ebadian, Rafi Ibn Sultan,  Mohamed Elshaikh, Benjamin Movsas, Dongxiao Zhu, and Indrin J. Chetty
+    venue: "Medical Physics"
+    paper_pdf: "/assets/publications/2023_SwinAttUNet/2023_SwinAttUNet.pdf"
+    paper_img: "/assets/publications/2023_SwinAttUNet/2023_SwinAttUNet.png"
+    selected: y
+
   - title: "Auto-Prompting SAM for Mobile Friendly 3D Medical Image Segmentation"
     authors: <b>Chengyin Li</b>, Prashant Khanduri, Yao Qiang,  Rafi Ibn Sultan, Indrin Chetty, and Dongxiao Zhu
-    venue: "Medical Physics"
+    venue: "Arxiv"
     paper_pdf: "/assets/publications/2023_autosam_adapter/autosam_adapter.pdf"
     paper_img: "/assets/publications/2023_autosam_adapter/autosam_adapter.png"
-    selected: y
-
-  - title: "A new architecture combining convolutional and transformer-based networks for automatic 3D multi-organ segmentation on CT images"
-    authors: <b>Chengyin Li</b>, Hassan Bagher-Ebadian, Rafi Ibn Sultan,  Mohamed Elshaikh, Benjamin Movsas, Dongxiao Zhu, and Indrin J. Chetty
-    venue: "Medical Physics"
-    paper_pdf: "/assets/publications/2023_SwinAttUNet/2023_SwinAttUNet.pdf"
-    paper_img: "/assets/publications/2023_SwinAttUNet/2023_SwinAttUNet.png"
-    selected: y
-  
-
-  - title: "A new architecture combining convolutional and transformer-based networks for automatic 3D multi-organ segmentation on CT images"
-    authors: <b>Chengyin Li</b>, Hassan Bagher-Ebadian, Rafi Ibn Sultan,  Mohamed Elshaikh, Benjamin Movsas, Dongxiao Zhu, and Indrin J. Chetty
-    venue: "Medical Physics"
-    paper_pdf: "/assets/publications/2023_SwinAttUNet/2023_SwinAttUNet.pdf"
-    paper_img: "/assets/publications/2023_SwinAttUNet/2023_SwinAttUNet.png"
     selected: y
 
   - title: "Negative Flux Aggregation to Estimate Feature Attributions"
