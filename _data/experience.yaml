@@ -6,22 +6,15 @@ experiences:
   subtitle: "Department of Computer Science"
   category: "school"
 
-
-# - place: "The Shenzhen Institutes of Advanced Technology"
-#   time: "2017 - 2018"
-#   title: "Research Assitant"
-#   subtitle: "Department of Computer Science"
-#   category: "work"
-
 - place: "University of Chinese Academy of Sciences"
   time: "2013 - 2016"
   title: "Master"
-  # subtitle: "Department of Computer Science"
+  subtitle: "   "
   category: "school"
 
 - place: "Nanjing University of Science and Technology"
   time: "2009 - 2013"
   title: "Bachelor"
-  # subtitle: "Department of Computer Science"
+  subtitle: "   "
   category: "school"
 
