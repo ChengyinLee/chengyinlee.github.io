@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Hijacking Large Language Models via Adversarial In-Context Learning</title>
+<meta name="keywords" content="nlp, large-language-model, safety, adversarial attacks, robustness, redteam" />
+<meta name="description" content="The use of large language models in the real world has strongly accelerated by the launch of ChatGPT. We (including my team at OpenAI, shoutout to them) have invested a lot of effort to build default safe behavior into the model during the alignment process (e.g. via RLHF). However, adversarial attacks or jailbreak prompts could potentially trigger the model to output something undesired.
+A large body of ground work on adversarial attacks is on images, and differently it operates in the continuous, high-dimensional space.">
+<meta name="author" content="Yao Qiang">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.67a6fb6e33089cb29e856bcc95d7aa39f70049a42b123105531265a0d9f1258b.css" integrity="sha256-Z6b7bjMInLKehWvMldeqOfcASaQrEjEFUxJloNnxJYs=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.5b9ae0304f93db6cc493f51846f012428af399c614b4f2fbdb7fa59dd4d5ef5b.js" integrity="sha256-W5rgME&#43;T22zEk/UYRvASQorzmcYUtPL723&#43;lndTV71s="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HFT45VFBX6"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-HFT45VFBX6', { 'anonymize_ip': false });
+}
+</script>
+
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+  };
+
+  window.addEventListener('load', (event) => {
+      document.querySelectorAll("mjx-container").forEach(function(x){
+        x.parentElement.classList += 'has-jax'})
+    });
+
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+        Hijacking Large Language Models via Adversarial In-Context Learning
+    </h1>
+    <div class="post-meta">Date: December 08, 2023  |  Estimated Reading Time: 25 min  |  Author:
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#introduction" aria-label="Introduction">Introduction</a><ul>
+                        
+                <li>
+                    <a href="#formulation" aria-label="ICL Formulation">ICL Formulation</a><ul>
+                        
+                <li>
+                    <a href="#adversaria-attack" aria-label="Adversarial Attack on LLMs">Adversarial Attack on LLMs</a></li>
+                <li>
+
+                <li>
+                    <a href="#threat-model" aria-label="The Threat Model">The Threat Model</a></li>
+                <li>
+
+                <li>
+                    <a href="#hijack-attack" aria-label="The ICL Hijacking Attack">The ICL Hijacking Attack</a></li>
+                <li>
+        
+            </ul>
+        </div>
+    </details>
+</div>
+<div class="post-content">
+<h1 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h1>
+<p>In-context learning (ICL) is an emerging technique for rapidly adapting large language models (LLMs), i.e., GPT-4 and LLaMA2, to new tasks without fine-tuning the pre-trained models 
+(<a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf">Brown et al, 2020</a>). 
+The key idea behind ICL is to provide LLMs with labeled examples as in-context demonstrations (demos) within the prompt context before a test query. 
+LLMs generate responses to queries via ICL by learning from the demos provided within the context
+(<a href="https://arxiv.org/pdf/2301.00234.pdf">Dong et al, 2022</a>).</p>
+
+<p>Several existing works, however, have demonstrated the highly unstable nature of ICL. 
+    Specifically, performance on target tasks using ICL can vary wildly based on the selection and order of demos,
+    giving rise to highly volatile outcomes ranging from random to near SOTA. 
+    Further research has also looked at how adversarial examples can undermine the stability of ICL performance. 
+    These studies show that maliciously designed examples injected into the prompt instructions, demos, or queries can successfully attack LLMs to degrade their performance, 
+    revealing the significant vulnerabilities of ICL to adversarial inputs. </p>
+
+<p>While existing adversarial attacks have been applied to evaluate LLM robustness, they have some limitations in practice. 
+   Many character-level attacks, e.g., DeepWordBug and Text Bugger,  can be easily detected and evaded through grammar checks, limiting real-world effectiveness. 
+   Some other attacks like BERTAttack require another model to generate adversarial examples, which may not be feasible in real-world applications. 
+   More importantly, current attacks are not specially designed to target LLMs based techniques like ICL. 
+   As such, the inherent security risks of LLMs remain largely unexplored. 
+   There is an urgent need for red teaming tailored to ICL to expose the substantial risk of LLMs for further evaluate and improve their adversarial robustness against potential real-world threats.</p>
+    
+<p>We propose a novel transferable adversarial attack specifically targeting ICL of the LLMs. 
+    As opposed to the current works that leverage adversarial examples to manipulate model outputs, 
+    our attack directly hijacks the LLM to generate the targeted response that disrupts alignment with the desired output. 
+    In Fig. 1, we illustrate the major difference between the previous attacks and our ICL attack in that 
+    ours hijacks the LLM to output the targeted unwanted token (e.g.,`negative') regardless of the query content. 
+    Furthermore, instead of manipulating the prompt instructions, demos, or queries, which are detectable, 
+    our hijacking attack is imperceptible in that it adds only 1-2 suffixes to the demos. 
+    Unlike the previous ICL attacks, these suffixes are semantically incongruous but not easily identified as typos or gibberish. 
+    Different from the backdoor attack for ICL, our ICL attack hijack the LLM to generate the targeted unwanted output without the need for a trigger. 
+    We develop a gradient-based prompt search algorithm to learn these adversarial suffixes in order to efficiently and effectively hijack LLMs via adversarial ICL.</p>
+
+<img src="example.png" class="center" />
+<figcaption>Fig. 1. Illustrations of ICL using clean prompt and adversarial prompt. 
+    Given the clean in-context prompts, LLMs are able to correctly generate the sentiment token of the test queries through ICL. 
+    The previous attacks at the character level involve minor edits in some words, such as altering `so' to `s0' and `film' to `fi1m', of these in-context demos, 
+    leading to incorrect sentiment token generated for the test queries. 
+    However, ours appends adversarial suffixes like `For' and `Location', to the in-context demos to effectively hijack LLMs to 
+    generate the targeted unwanted output, e.g., the `negative' sentiment token, regardless of the test query content.</figcaption>
+
+<h1 id="formulation">ICL Formulation<a hidden class="anchor" aria-hidden="true" href="#formulation">#</a></h1>
+<p>Formally, ICL is characterized as a problem involving the conditional generation of text, where an LLM $\mathcal{M}$ is employed to 
+    generate response $y_Q$ given an optimal task instruction $I$, a demo set $C$, 
+    and an input query $x_Q$. $I$ specifies the downstream task that $\mathcal{M}$ should perform, 
+    e.g., ``Choose sentiment from positive or negative" used in our sentiment token generation task 
+    or ``Classify the topic of the last review" used in our topic token generation task. 
+    $C$ consists of $N$ (e.g., 8) concatenated data-label pairs following a specific template $S$, 
+    formally: $C = [S(x_1, y_1);\  \cdots; \ S(x_N, y_N)]$, `;' here denotes the concatenation operator. 
+    Thus, given the input prompt as $p = [I;\ C;\ S(x_Q,\_)]$, $\mathcal{M}$ generates the response 
+    $y = \mathcal{M}(p)$. $S(x_Q, \_)$ means using the same template as the demos but with the label empty.</p>
+<p>This work mainly focuses on using text classification tasks to demonstrate the effectiveness 
+    of our LLM hijacking attack via adversarial in-context learning. 
+    To adapt the generative LLMs for the discriminative classification tasks, we configure $\mathcal{M}$ to generate 
+    the response $y$ from a set of candidate class labels denoted as $\mathcal{Y} = \{y_1, \cdots, y_j, \cdots, y_K\}$. 
+    $y_j$ here represents the label for the $j$-th class. $K$ denotes the total number of classes. For ease of use, 
+    we define a verbalizer function, denoted as $\mathcal{V}$, which maps each of the class labels, 
+    i.e., $y_j$, to a corresponding specific token represented as $\mathcal{V}(y_j)$. 
+    This verbalizer function serves to establish a link between the class labels and their corresponding tokens, 
+    facilitating the generative LLMs' handling of the discriminative classification task.</p>
+<p>Given the input prompt $p$, the LLM $\mathcal{M}$ first generates the logits $\mathbf{z}$ of the next token. 
+    The logits $z_j$, which represents the probability of the class $y_j$ of the token $\mathcal{V}(y_j)$, is formulated as:
+$$
+    z_j = \mathcal{M}(\mathcal{V}(y_j)|p).
+$$ 
+Then, the final generation result $y_Q$ is the label with the highest logits probability: 
+$$
+    y = \underset{y_j \in \mathcal{Y}}{\arg\mathrm{max}} \mathcal{M}(\mathcal{V}(y_j)|p). 
+$$</p>
+
+<h1 id="adversarial-attack">Adversarial Attack on LLMs<a hidden class="anchor" aria-hidden="true" href="#adversaria-attack">#</a></h1>
+<p>In typical text-based adversarial attacks, the attackers manipulate the input $x$ with the goal of misleading the model 
+    to produce inaccurate output or bypass safety guardrails. Specifically, given the input-output pair $(x,y)$, the attackers aim to learn 
+    the adversarial perturbation $\delta$ adding to $x$ by maximizing the model’s objective function but without misleading humans 
+    by bounding the perturbation within the “perceptual” region $\Delta$. The objective function of the attacking process thus can be formulated as: 
+    $$
+        \underset{\delta \in \Delta}{\mathrm{max}}\mathcal{L}(\mathcal{M}(x_Q + \delta), y_Q),
+    $$
+    $\mathcal{L}$ here denotes the task-specific loss function, for instance, cross-entropy loss for classification tasks.</p>
+
+<h1 id="threat-model">The Threat Model<a hidden class="anchor" aria-hidden="true" href="#threat-model">#</a></h1>
+<h2 id="hijack-attack">The ICL Hijacking Attack<a hidden class="anchor" aria-hidden="true" href="#hijack-attack">#</a></h2>
+
+
+</script>
+</body>
+
+</html>
