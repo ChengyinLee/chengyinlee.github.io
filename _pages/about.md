@@ -9,10 +9,9 @@ redirect_from:
 ---
 
 <span class='anchor' id='about-me'></span>
+I am a dedicated researcher advancing AI in healthcare, with a particular focus on Medical Image Analysis and Trustworthy AI. Currently, I develop innovative AI-driven healthcare solutions at Henry Ford Health. I hold a Ph.D. in Computer Science from Wayne State University, where I specialized in AI methodologies for medical applications. My research contributions have been widely recognized, with publications in top AI and medical imaging conferences, including NeurIPS, IJCAI, ECML, MICCAI, and WACV, among others. With a strong passion for research and a commitment to real-world impact, I strive to bridge the gap between cutting-edge AI and practical healthcare applications.
 
-I am an Assistant Professor in the Computer Science and Engineering Department at Oakland University. I am the director of SAFE AI Lab (Secure, Aligned, Fair, and Ethical AI Research Lab). My research mainly focuses on Natural Language Processing (NLP), Large Language Models (LLMs), Trustworthy Artificial Intelligence (AI), and Machine Learning Theory and Applications. My dedication to these areas has led to the publication of numerous research papers at top AI conferences, including NeurIPS, IJCAI, AAAI, ICML, EACL, MICCAI, and IJCNN, among others. I have a strong passion for research and a demonstrated ability to apply my knowledge to real-world challenges.
-
-I am looking for self-motivated Master's/Ph.D. students to join my group for Winter/Fall 2025. If you are interested in Trustworthy AI, NLP, LLMs, and Generative AI, please feel free to email me with your CV.
+If you are interested in Medical Image Analysis, Trustworthy AI, or Generative AI, feel free to reach out via email—I am always open to collaboration!
 
 # 🔥 News  
 - *2025.01*: &nbsp;💼 I am serving on a NSF CISE Panel.
