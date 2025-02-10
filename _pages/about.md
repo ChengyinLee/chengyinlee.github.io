@@ -43,7 +43,7 @@ If you are interested in Medical Image Analysis, Trustworthy AI, or Generative A
 
 ## 🎙 Trustworthy AI
 - [Full publications here](https://scholar.google.com/citations?user=GeL7DtsAAAAJ&hl=en)
-- ``ECCV 2024`` [Fairness-aware Vision Transformer via Debiased Self-Attention (ECCV 2024)](https://arxiv.org/pdf/2301.13803.pdf)
+- `ECCV 2024` [Fairness-aware Vision Transformer via Debiased Self-Attention (ECCV 2024)](https://arxiv.org/pdf/2301.13803.pdf)
   Yao Qiang, **Chengyin Li**, Prashant Khanduri, and Dongxiao Zhu
 - ``NeurIPS 2022`` [Attcat: Explaining transformers via attentive class activation tokens (NeurIPS 2022)](https://proceedings.neurips.cc/paper_files/paper/2022/file/20e45668fefa793bd9f2edf19be12c4b-Paper-Conference.pdf) 
   Yao Qiang, Deng Pan, **Chengyin Li**, Xin Li, Rhongho Jang, and Dongxiao Zhu
