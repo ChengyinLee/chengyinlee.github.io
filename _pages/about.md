@@ -38,76 +38,61 @@ If you are interested in Medical Image Analysis, Trustworthy AI, or Generative A
 - *2022.04*: &nbsp;🎉 One Paper accepted by **IJCA 2022**.
 
 # 📝 Publications 
-## AI for healthcare
+[Full publications here](https://scholar.google.com/citations?user=GeL7DtsAAAAJ&hl=en)
 
+- **[WACV 2025]** [MulModSeg: Enhancing Unpaired Multi-Modal Medical Image Segmentation with Modality-Conditioned Text Embedding and Alternating Training](https://arxiv.org/pdf/2411.15576) **Chengyin Li**, Hui Zhu, Rafi Ibn Sultan, Hassan Bagher Ebadian, Prashant Khanduri, Chetty Indrin, Kundan Thind, and Dongxiao Zhu.
 
-## 🎙 Trustworthy AI
-- [Full publications here](https://scholar.google.com/citations?user=GeL7DtsAAAAJ&hl=en)
-- `ECCV 2024` [Fairness-aware Vision Transformer via Debiased Self-Attention (ECCV 2024)](https://arxiv.org/pdf/2301.13803.pdf)
+- **[WACV 2025]** [AutoProSAM: Automated Prompting SAM for 3D Multi-organ Segmentation](https://arxiv.org/abs/2308.14936) **Chengyin Li**, Prashant Khanduri, Yao Qiang, R. Ibn Sultan, Indrin Chetty, and Dongxiao Zhu.
+
+- **[MICCAI 2023]** [FocalUNETR: A Focal Transformer for Boundary-Aware Prostate Segmentation Using CT Images](https://link.springer.com/chapter/10.1007/978-3-031-43898-1_57) 
+**Chengyin Li**, Yao Qiang, Rafi Ibn Sultan, Hassan Bagher-Ebadian, Prashant Khanduri, Indrin J. Chetty, and Dongxiao Zhu.
+
+- **[Medical Physics]** [A new architecture combining convolutional and transformer‐based networks for automatic 3D multi‐organ segmentation on CT images](https://aapm.onlinelibrary.wiley.com/doi/pdf/10.1002/mp.16750) **Chengyin Li**, Hassan Bagher‐Ebadian, Rafi Ibn Sultan, Mohamed Elshaikh, Benjamin Movsas, Dongxiao Zhu, and Indrin J. Chetty.
+
+- **[AAPM 2023]** (Oral) [A new architecture combining convolutional and transformer‐based networks for automatic 3D multi‐organ segmentation on CT images](https://aapm.onlinelibrary.wiley.com/doi/pdf/10.1002/mp.16750) **Chengyin Li**, Hassan Bagher‐Ebadian, Rafi Ibn Sultan, Mohamed Elshaikh, Benjamin Movsas, Dongxiao Zhu, and Indrin J. Chetty.
+
+- **[ECML PKDD 2022]** (Oral) [Coupling User Preference with External Rewards to Enable Driver-centered and Resource-aware EV Charging Recommendation](https://arxiv.org/pdf/2210.12693) **Chengyin Li**, Zheng Dong, Nathan Fisher, and Dongxiao Zhu.
+
+- **[BIBM 2020]** [COVID-MobileXpert: On-Device COVID-19 Patient Triage and Follow-up using Chest X-rays](https://www.computer.org/csdl/proceedings-article/bibm/2020/09313217/1qmfVqaDpba) Xin Li, **Chengyin Li**, Dongxiao Zhu.
+
+- **[ECCV 2024]** [Fairness-aware Vision Transformer via Debiased Self-Attention](https://arxiv.org/pdf/2301.13803.pdf) 
   Yao Qiang, **Chengyin Li**, Prashant Khanduri, and Dongxiao Zhu
-- ``NeurIPS 2022`` [Attcat: Explaining transformers via attentive class activation tokens (NeurIPS 2022)](https://proceedings.neurips.cc/paper_files/paper/2022/file/20e45668fefa793bd9f2edf19be12c4b-Paper-Conference.pdf) 
+- **[NeurIPS 2022]** [Attcat: Explaining transformers via attentive class activation tokens](https://proceedings.neurips.cc/paper_files/paper/2022/file/20e45668fefa793bd9f2edf19be12c4b-Paper-Conference.pdf) 
   Yao Qiang, Deng Pan, **Chengyin Li**, Xin Li, Rhongho Jang, and Dongxiao Zhu
-
-- [Counterfactual interpolation augmentation (CIA): A unified approach to enhance fairness and explainability of DNN (IJCAI 2022)](https://www.ijcai.org/proceedings/2022/0103.pdf) 
+- **[IJCAI 2022]** [Counterfactual interpolation augmentation (CIA): A unified approach to enhance fairness and explainability of DNN](https://www.ijcai.org/proceedings/2022/0103.pdf) 
 Yao Qiang, **Chengyin Li**, Marco Brocanelli, and Dongxiao Zhu
-## [Learning to Poison Large Language Models During Instruction Tuning (Pre-print)](https://arxiv.org/pdf/2402.13459.pdf) 
-Yao Qiang, Xiangyu Zhou, Saleh Zare Zade, Mohammad Amin Roshani, Douglas Zytko, Dongxiao Zhu
-## [Hijacking Large Language Models via Adversarial In-Context Learning (Pre-print)](https://arxiv.org/pdf/2311.09948.pdf) 
-Yao Qiang, Xiangyu Zhou, and Dongxiao Zhu
-## [Tiny rnn model with certified robustness for text classification (IJCNN 2022)](https://ieeexplore.ieee.org/abstract/document/9892117) 
-Yao Qiang, Supriya Tumkur Suresh Kumar, Marco Brocanelli, and Dongxiao Zhu
-## [Toward tag-free aspect based sentiment analysis: A multiple attention network approach (IJCNN 2020)](https://ieeexplore.ieee.org/abstract/document/9207426) 
-Yao Qiang, Xin Li, and Dongxiao Zhu
-## [Benchmark and Neural Architecture for Conversational Entity Retrieval from a Knowledge Graph (The Web Conference 2024)](https://openreview.net/pdf?id=9UudHPxH27) 
-Mona Zamiri, Yao Qiang, Fedor Nikolaev, Dongxiao Zhu, Alexander Kotov
-## [Learning compact features via in-training representation alignment (AAAI 2023)](https://ojs.aaai.org/index.php/AAAI/article/view/26044) 
-Xin Li, Xiangrui Li, Deng Pan, Yao Qiang, and Dongxiao Zhuu
-## [Negative Flux Aggregation to Estimate Feature Attributions (IJCAI 2023)](https://arxiv.org/pdf/2301.06989.pdf) 
+- **[IJCAI 2023]** [Negative Flux Aggregation to Estimate Feature Attributions](https://arxiv.org/pdf/2301.06989.pdf) 
 Xin Li, Deng Pan, **Chengyin Li**, Yao Qiang, and Dongxiao Zhu
-## [FocalUNETR: A Focal Transformer for Boundary-Aware Prostate Segmentation Using CT Images (MICCAI 2022)](https://link.springer.com/chapter/10.1007/978-3-031-43898-1_57) 
-**Chengyin Li**, Yao Qiang, Rafi Ibn Sultan, Hassan Bagher-Ebadian, Prashant Khanduri, Indrin J. Chetty, and Dongxiao Zhu
 
 # 📖 Educations
 - *2019.09 - 2024.06*, Doctor of Philosophy in Computer Science, Wayne State University
-- *2018.09 - 2019.12*, Master of Science in Computer Science, Wayne State University
-- *2006.09 - 2010.07*, Bachelor of Science in Computer Science, Xidian University
+- *2018.09 - 2019.12*, Master, Chinese Academy of Sciences
+- *2009.09 - 2013.07*, Bachelor, Nanjing University of Science and Technology
 
 # 💻 Experience
-- *2024.08- Present*, Assistant Professor, CSE, Oakland University
+- *2024.08 - Present*, Researcher and Programmer, Henry Ford Health
+- *2022.05 - 2024.07*, Reaserch Scientist (part-time), Henry Ford Health
 - *2019.09 - 2024.06*, Graduate Research Assistant, Trustworthy AI Lab, Wayne State University
-- *2023.05 - 2023.08*, Applied Scientist Intern, Trustworthy AI Lab, Robust and Modeling Team, Alexa, Amazon
-- *2018.08 - 2019.08*, Student Research Assistant, Part-time, Mike Ilitch School of Business, Wayne State University
-- *2010.08 - 2017.12*, Computer Hardware Designer, Xi’an Microelectronics Technology Institute
-
+- *2017.09 - 2018.12*, Research Assistant (part-time), The Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
+- *2017.09 - 2018.09*, Graduate Teaching Assistant, The Chinese University of Hong Kong (SZ)
+- *2016.09 – 2017.07*, Research Assistant, Institute of Process Engineering, Chinese Academy of Sciences 
+ 
 # 📃 Teaching
-- *2024 - 2025*, Lecturer for CSI 4100/5100 Ethics and Bias in AI
-- *2020 - 2023*, Invited Lecturer for CSC 5825 Machine Learning&Apps (Graduate Level)
-- *2020 - 2022*, Invited Lecturer for CSC 7825 Machine Learning (Graduate Level)
-- *2021*, Instructor for CSC 3101 Computer Architecture and Organization: Lab 
-- *2020*, Instructor for CSC 2111 Computer Science: Lab
-- *2020 - 2022*, Teaching Assistant for CSC 2111 Computer Science,
-CSC 3101 Computer Architecture and Organization, CSC 5825 Machine Learning&Apps (Graduate Level), 
-Design and Analysis of Algorithms (Graduate Level), CSC 7825 Machine Learning (Graduate Level)
+- *2017 - 2018*, Teaching Assistant for CSC 4800 Data Mining.
 
 # 💼 Academic Service
-- **Program Committee Member**: SDM 2023, KDD 2023, AAAI 2022-2023, ICML 2022-2024, CIKM 2024
-- **Journal Reviewer**: TKDD 2023, AI 2022, TIOT 2021
-- **Conference Reviewer**: SDM 2023, KDD 2023-2024, CVPR 2023, AAAI 2020-2023, NeurIPS 2020-2024, ICLR 2022-2023, IJCAI 2021-2024, MICCAI 2022-2023, ICML 2022-2024, ACL 2024
-- **Conference Student Volunteering**, AAAI 2023, NeurIPS 2022, IJCAI 2022, IJCNN 2022
+- **Conference Program Committee Member/Revier**: IJCAI 2024-2025, NeurIPS 2023-2024, CVPR 2024-2025, MICCAI 2023-2024, ICML 2025, AISTS 2025, ICLR 2025
+- **Journal Reviewer**: IEEE Transactions on Medical Imaging, Transactions on Machine Learning Research (TMLR), Scientific Reports, Smart Health, BMC Genomics, Journal of Medical Imaging
+
 
 # 🎖 Honors and Awards
-- Michael E. Conrad Award (Highest Honor at WSU CS Department), *2023*
-- AAAI 2023 Student Scholarship, *2022*
-- NeurIPS 2022 Scholar Award, *2022*
-- Department Travel Award for Outstanding Conference Publications, *2022*
+- Michael E. Conrad Award (Highest Honor at WSU CS Department), *2024*
+- Department Oustanding GRA Award, *2023*
 - Graduate Student Professional Travel Award, *2022*
-- IEEE CIS Conference Participation and Travel Grants, *2022*
-- IJCAI 2022 Travel and Accessibility Grant, *2022*
-- Department Oustanding GTA Award, *2020*
-- Graduate School Master’s Scholarship Award, *2019*
+- Thomas C. Rumble Fellowship Award, *2019-2020*
 
 # 💼 CV
-- **[PDF](yao_cv.pdf)**
+- **[PDF](cy_cv.pdf)**
 
 # 🔗 Links
 - 👨‍🏫 **Ph.D. Advisors**: [Dongxiao Zhu](https://dongxiaozhu.github.io/)
