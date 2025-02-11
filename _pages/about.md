@@ -25,13 +25,13 @@ My research focuses on two main areas: Medical Image Analysis with Deep Learning
 - *2023.11*: &nbsp;💼 I gave a talk on "Medical Image Segmentation with Transformers" at Wayne State University's Computer Science Department.
 - *2023.09*: &nbsp;🎖 I won the **Department Oustanding GRA Award** in the academic year 2022-2023.
 - *2023.06*: &nbsp;🎉 One Paper accepted by **MICCAI 2023**.
-- *2023.04*: &nbsp;🎉 One Paper accepted by **IJCA 2023**.
+- *2023.04*: &nbsp;🎉 One Paper accepted by **IJCAI 2023**.
 - *2022.11*: &nbsp;🚁 I attended **NeurIPS 2022** at New Orleans and illustrated our [paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/20e45668fefa793bd9f2edf19be12c4b-Paper-Conference.pdf) poster.
 - *2022.11*: &nbsp;🎖 I won the **Graduate Student Professional Travel Award**.
 - *2022.11*: &nbsp;🎉 One Paper accepted by **AAAI 2023**.
 - *2022.09*: &nbsp;🎉 One Paper accepted by **NeurIPS 2023**.
 - *2022.06*: &nbsp;🎉 One Paper accepted by **ECML PKDD 2022**.
-- *2022.04*: &nbsp;🎉 One Paper accepted by **IJCA 2022**.
+- *2022.04*: &nbsp;🎉 One Paper accepted by **IJCAI 2022**.
 
 # 📝 Publications 
 [Full publications here](https://scholar.google.com/citations?user=GeL7DtsAAAAJ&hl=en)
