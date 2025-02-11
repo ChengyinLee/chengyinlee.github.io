@@ -19,17 +19,17 @@ If you are interested in Medical Image Analysis, Trustworthy AI, or Generative A
 
 # 🔥 News  
 - *2025.02*: &nbsp;💼 I am serving as PC mebmber on **IJCAI 2025**.
-- *2024.10*:  🎉 Two papers accepted by **WACV 2025**.
+- *2024.10*: &nbsp;🎉 Two papers accepted by **WACV 2025**.
 - *2024.08*: &nbsp;💼 I start working at Henry Ford Health this August. 
 - *2024.07*: &nbsp;🎉 One Paper accepted by **ECCV 2024**.
 - *2024.07*: &nbsp;🎉 I have successfully defended my Ph.D. dissertation.
 - *2024.04*: &nbsp;🎖 I won the **Michael E. Conrad Award** in the academic year 2023-2024 (**only 1 awardee** among graduates in Department of Computer Science, Wayne State University).
-- *2023.12*: &nbsp;✨ I delivered a talk on Medical Imaging Segmentation with AI at Karmanos Cancer Institute.
+- *2023.12*: &nbsp;💼 I delivered a talk on Medical Imaging Segmentation with AI at Karmanos Cancer Institute.
 - *2023.12*: &nbsp;✨ I passed the prospectus exam for my Ph.D. dissertation.
 - *2023.11*: &nbsp;💼 I delivered a talk on "Medical Image Segmentation with Transformers" at Wayne State University Computer Science Department.
 - *2023.09*: &nbsp;🎖 I won the **Department Oustanding GRA Award** in the academic year 2022-2023.
 - *2023.06*: &nbsp;🎉 One Paper accepted by **MICCAI 2023**.
-- *2023.04*: &nbsp;🎉 1 Paper accepted by **IJCA 2023**.
+- *2023.04*: &nbsp;🎉 One Paper accepted by **IJCA 2023**.
 - *2022.11*: &nbsp;🚁 I attended **NeurIPS 2022** at New Orleans and illustrated our [paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/20e45668fefa793bd9f2edf19be12c4b-Paper-Conference.pdf) poster.
 - *2022.11*: &nbsp;🎖 I won the **Graduate Student Professional Travel Award**.
 - *2022.11*: &nbsp;🎉 One Paper accepted by **AAAI 2023**.
@@ -66,7 +66,7 @@ Xin Li, Deng Pan, **Chengyin Li**, Yao Qiang, and Dongxiao Zhu
 
 # 📖 Educations
 - *2019.09 - 2024.06*, Doctor of Philosophy in Computer Science, Wayne State University
-- *2018.09 - 2019.12*, Master, Chinese Academy of Sciences
+- *2013.09 - 2016.07*, Master, Chinese Academy of Sciences
 - *2009.09 - 2013.07*, Bachelor, Nanjing University of Science and Technology
 
 # 💻 Experience
@@ -82,7 +82,7 @@ Xin Li, Deng Pan, **Chengyin Li**, Yao Qiang, and Dongxiao Zhu
 
 # 💼 Academic Service
 - **Conference Program Committee Member/Revier**: IJCAI 2024-2025, NeurIPS 2023-2024, CVPR 2024-2025, MICCAI 2023-2024, ICML 2025, AISTS 2025, ICLR 2025
-- **Journal Reviewer**: IEEE Transactions on Medical Imaging, Transactions on Machine Learning Research (TMLR), Scientific Reports, Smart Health, BMC Genomics, Journal of Medical Imaging
+- **Journal Reviewer**: IEEE Transactions on Medical Imaging, Transactions on Machine Learning Research (TMLR), Medical Physics, Scientific Reports, Smart Health, BMC Genomics, Journal of Medical Imaging
 
 
 # 🎖 Honors and Awards
