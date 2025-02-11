@@ -9,24 +9,20 @@ redirect_from:
 ---
 
 <span class='anchor' id='about-me'></span>
-I am a dedicated researcher advancing AI in healthcare, with a particular focus on Medical Image Analysis and Trustworthy AI. Currently, 
-I develop innovative AI-driven healthcare solutions at Henry Ford Health. I hold a Ph.D. in Computer Science from Wayne State University, 
-where I specialized in AI methodologies for medical applications. My research contributions have been widely recognized, with publications 
-in top AI and medical imaging conferences, including NeurIPS, IJCAI, ECML, MICCAI, and WACV, among others. With a strong passion for research 
-and a commitment to real-world impact, I strive to bridge the gap between cutting-edge AI and practical healthcare applications.
+I am a dedicated researcher advancing AI in healthcare, with a particular focus on Medical Image Analysis and Trustworthy AI. Currently at Henry Ford Health, I explore innovative AI-driven healthcare solutions, specializing in medical image analysis and reliable AI systems. I hold a Ph.D. in Computer Science from Wayne State University, where my research has been published in top venues including MICCAI, WACV, NeurIPS, IJCAI, and ECML.
 
-If you are interested in Medical Image Analysis, Trustworthy AI, or Generative AI, feel free to reach out via email—I am always open to collaboration!
+My research focuses on two main areas: Medical Image Analysis with Deep Learning (automatic medical image segmentation, multi-modal learning, foundation models in medical domain, clinical-oriented AI solutions for healthcare) and Trustworthy AI (fairness, explainability, robustness). I strive to bridge the gap between cutting-edge AI and practical healthcare applications. If you're interested in Medical Image Analysis, Trustworthy AI, or Generative AI, I welcome collaboration opportunities.
 
 # 🔥 News  
 - *2025.02*: &nbsp;💼 I am serving as PC mebmber on **IJCAI 2025**.
 - *2024.10*: &nbsp;🎉 Two papers accepted by **WACV 2025**.
-- *2024.08*: &nbsp;💼 I start working at Henry Ford Health this August. 
+- *2024.08*: &nbsp;💼 I start working at Henry Ford Health. 
 - *2024.07*: &nbsp;🎉 One Paper accepted by **ECCV 2024**.
-- *2024.07*: &nbsp;🎉 I have successfully defended my Ph.D. dissertation.
-- *2024.04*: &nbsp;🎖 I won the **Michael E. Conrad Award** in the academic year 2023-2024 (**only 1 awardee** among graduates in Department of Computer Science, Wayne State University).
-- *2023.12*: &nbsp;💼 I delivered a talk on Medical Imaging Segmentation with AI at Karmanos Cancer Institute.
-- *2023.12*: &nbsp;✨ I passed the prospectus exam for my Ph.D. dissertation.
-- *2023.11*: &nbsp;💼 I delivered a talk on "Medical Image Segmentation with Transformers" at Wayne State University Computer Science Department.
+- *2024.07*: &nbsp;🎉 I successfully defended my Ph.D. dissertation.
+- *2024.04*: &nbsp;🎖 I won the **Michael E. Conrad Award** for 2023-2024 (**sole recipient** among graduate students in the Department of Computer Science, Wayne State University).
+- *2023.12*: &nbsp;💼 I gave a talk on Medical Imaging Segmentation with AI at Karmanos Cancer Institute.
+- *2023.12*: &nbsp;✨ I passed my Ph.D. dissertation prospectus exam.
+- *2023.11*: &nbsp;💼 I gave a talk on "Medical Image Segmentation with Transformers" at Wayne State University's Computer Science Department.
 - *2023.09*: &nbsp;🎖 I won the **Department Oustanding GRA Award** in the academic year 2022-2023.
 - *2023.06*: &nbsp;🎉 One Paper accepted by **MICCAI 2023**.
 - *2023.04*: &nbsp;🎉 One Paper accepted by **IJCA 2023**.
@@ -47,9 +43,9 @@ If you are interested in Medical Image Analysis, Trustworthy AI, or Generative A
 - **[MICCAI 2023]** [FocalUNETR: A Focal Transformer for Boundary-Aware Prostate Segmentation Using CT Images](https://link.springer.com/chapter/10.1007/978-3-031-43898-1_57) 
 **Chengyin Li**, Yao Qiang, Rafi Ibn Sultan, Hassan Bagher-Ebadian, Prashant Khanduri, Indrin J. Chetty, and Dongxiao Zhu.
 
-- **[Medical Physics]** [A new architecture combining convolutional and transformer‐based networks for automatic 3D multi‐organ segmentation on CT images](https://aapm.onlinelibrary.wiley.com/doi/pdf/10.1002/mp.16750) **Chengyin Li**, Hassan Bagher‐Ebadian, Rafi Ibn Sultan, Mohamed Elshaikh, Benjamin Movsas, Dongxiao Zhu, and Indrin J. Chetty.
+- **[Medical Physics 2023]** [A new architecture combining convolutional and transformer‐based networks for automatic 3D multi‐organ segmentation on CT images](https://aapm.onlinelibrary.wiley.com/doi/pdf/10.1002/mp.16750) **Chengyin Li**, Hassan Bagher‐Ebadian, Rafi Ibn Sultan, Mohamed Elshaikh, Benjamin Movsas, Dongxiao Zhu, and Indrin J. Chetty.
 
-- **[AAPM 2023]** (Oral) [A new architecture combining convolutional and transformer‐based networks for automatic 3D multi‐organ segmentation on CT images](https://aapm.onlinelibrary.wiley.com/doi/pdf/10.1002/mp.16750) **Chengyin Li**, Hassan Bagher‐Ebadian, Rafi Ibn Sultan, Mohamed Elshaikh, Benjamin Movsas, Dongxiao Zhu, and Indrin J. Chetty.
+- **[AAPM 2023]** (Oral) [A new architecture combining convolutional and transformer‐based networks for automatic 3D multi‐organ segmentation on CT images](https://aapm.confex.com/aapm/2023am/meetingapp.cgi/Paper/3328) **Chengyin Li**, Hassan Bagher‐Ebadian, Rafi Ibn Sultan, Mohamed Elshaikh, Benjamin Movsas, Dongxiao Zhu, and Indrin J. Chetty.
 
 - **[ECML PKDD 2022]** (Oral) [Coupling User Preference with External Rewards to Enable Driver-centered and Resource-aware EV Charging Recommendation](https://arxiv.org/pdf/2210.12693) **Chengyin Li**, Zheng Dong, Nathan Fisher, and Dongxiao Zhu.
 
@@ -57,12 +53,16 @@ If you are interested in Medical Image Analysis, Trustworthy AI, or Generative A
 
 - **[ECCV 2024]** [Fairness-aware Vision Transformer via Debiased Self-Attention](https://arxiv.org/pdf/2301.13803.pdf) 
   Yao Qiang, **Chengyin Li**, Prashant Khanduri, and Dongxiao Zhu
-- **[NeurIPS 2022]** [Attcat: Explaining transformers via attentive class activation tokens](https://proceedings.neurips.cc/paper_files/paper/2022/file/20e45668fefa793bd9f2edf19be12c4b-Paper-Conference.pdf) 
-  Yao Qiang, Deng Pan, **Chengyin Li**, Xin Li, Rhongho Jang, and Dongxiao Zhu
-- **[IJCAI 2022]** [Counterfactual interpolation augmentation (CIA): A unified approach to enhance fairness and explainability of DNN](https://www.ijcai.org/proceedings/2022/0103.pdf) 
-Yao Qiang, **Chengyin Li**, Marco Brocanelli, and Dongxiao Zhu
+
 - **[IJCAI 2023]** [Negative Flux Aggregation to Estimate Feature Attributions](https://arxiv.org/pdf/2301.06989.pdf) 
 Xin Li, Deng Pan, **Chengyin Li**, Yao Qiang, and Dongxiao Zhu
+
+- **[NeurIPS 2022]** [Attcat: Explaining transformers via attentive class activation tokens](https://proceedings.neurips.cc/paper_files/paper/2022/file/20e45668fefa793bd9f2edf19be12c4b-Paper-Conference.pdf) 
+  Yao Qiang, Deng Pan, **Chengyin Li**, Xin Li, Rhongho Jang, and Dongxiao Zhu
+
+- **[IJCAI 2022]** [Counterfactual interpolation augmentation (CIA): A unified approach to enhance fairness and explainability of DNN](https://www.ijcai.org/proceedings/2022/0103.pdf) 
+Yao Qiang, **Chengyin Li**, Marco Brocanelli, and Dongxiao Zhu
+
 
 # 📖 Educations
 - *2019.09 - 2024.06*, Doctor of Philosophy in Computer Science, Wayne State University
@@ -81,7 +81,7 @@ Xin Li, Deng Pan, **Chengyin Li**, Yao Qiang, and Dongxiao Zhu
 - *2017 - 2018*, Teaching Assistant for CSC 4800 Data Mining.
 
 # 💼 Academic Service
-- **Conference Program Committee Member/Revier**: IJCAI 2024-2025, NeurIPS 2023-2024, CVPR 2024-2025, MICCAI 2023-2024, ICML 2025, AISTS 2025, ICLR 2025
+- **Conference Program Committee Member/Revier**: IJCAI 2024-2025, NeurIPS 2023-2024, CVPR 2024-2025, MICCAI 2023-2024, ICML 2025, AISTATS 2025, ICLR 2025
 - **Journal Reviewer**: IEEE Transactions on Medical Imaging, Transactions on Machine Learning Research (TMLR), Medical Physics, Scientific Reports, Smart Health, BMC Genomics, Journal of Medical Imaging
 
 
