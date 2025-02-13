@@ -11,7 +11,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 I am a dedicated researcher advancing AI in healthcare, with a particular focus on Medical Image Analysis and Trustworthy AI. Currently at Henry Ford Health, I explore innovative AI-driven healthcare solutions, specializing in medical image analysis and reliable AI systems. I hold a Ph.D. in Computer Science from Wayne State University, where my research has been published in top venues including MICCAI, WACV, NeurIPS, IJCAI, and ECML.
 
-My research focuses on two main areas: Medical Image Analysis with Deep Learning (automatic medical image segmentation, multi-modal learning, foundation models in medical domain, clinical-oriented AI solutions for healthcare) and Trustworthy AI (fairness, explainability, robustness). I strive to bridge the gap between cutting-edge AI and practical healthcare applications. **If you’re interested in Medical Image Analysis, or Trustworthy AI please don’t hesitate to reach out—I’m eager to explore collaboration opportunities.**
+My research focuses on two main areas: Medical Image Analysis with Deep Learning (automatic medical image segmentation, multi-modal learning, foundation models in medical domain, clinical-oriented AI solutions for healthcare) and Trustworthy AI (fairness, explainability, robustness). I strive to bridge the gap between cutting-edge AI and practical healthcare applications. **If you’re interested in Medical Image Analysis, or Trustworthy AI,  please don’t hesitate to reach out—I’m eager to explore collaboration opportunities.**
 
 # 🔥 News  
 - *2025.02*: &nbsp;💼 I am serving as PC mebmber on **IJCAI 2025**.
