@@ -81,7 +81,7 @@ Yao Qiang, **Chengyin Li**, Marco Brocanelli, and Dongxiao Zhu
 - *2017 - 2018*, Teaching Assistant for CSC 4800 Data Mining.
 
 # 💼 Academic Service
-- **Conference Program Committee Member/Revier**: IJCAI 2024-2025, NeurIPS 2023-2024, CVPR 2024-2025, MICCAI 2023-2024, ICML 2025, AISTATS 2025, ICLR 2025
+- **Conference Program Committee Member/Reviewer**: IJCAI 2024-2025, NeurIPS 2023-2024, CVPR 2024-2025, MICCAI 2023-2024, ICML 2025, AISTATS 2025, ICLR 2025, ICCV 2025
 - **Journal Reviewer**: IEEE Transactions on Medical Imaging, Transactions on Machine Learning Research (TMLR), Medical Physics, Scientific Reports, Smart Health, BMC Genomics, Journal of Medical Imaging
 
 
