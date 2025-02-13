@@ -92,7 +92,7 @@ Yao Qiang, **Chengyin Li**, Marco Brocanelli, and Dongxiao Zhu
 - Thomas C. Rumble Fellowship Award, *2019-2020*
 
 # 💼 CV
-- **[PDF](cy_cv.pdf)**
+- **[PDF](chengyin_cv.pdf)**
 
 # 🔗 Links
 - 👨‍🏫 **Ph.D. Advisors**: [Dongxiao Zhu](https://dongxiaozhu.github.io/)
