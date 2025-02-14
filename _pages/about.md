@@ -73,9 +73,8 @@ Yao Qiang, **Chengyin Li**, Marco Brocanelli, and Dongxiao Zhu
 - *2024.08 - Present*, Researcher and Programmer, Henry Ford Health
 - *2022.05 - 2024.07*, Reaserch Scientist (part-time), Henry Ford Health
 - *2019.09 - 2024.06*, Graduate Research Assistant, Trustworthy AI Lab, Wayne State University
-- *2017.09 - 2018.12*, Research Assistant (part-time), The Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
-- *2017.09 - 2018.09*, Graduate Teaching Assistant, The Chinese University of Hong Kong (SZ)
-- *2016.09 – 2017.07*, Research Assistant, Institute of Process Engineering, Chinese Academy of Sciences 
+- *2017.09 - 2018.12*, Visiting Student, The Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
+- *2017.09 - 2018.09*, Teaching Assistant, The Chinese University of Hong Kong (SZ)
  
 # 📃 Teaching
 - *2017 - 2018*, Teaching Assistant for CSC 4800 Data Mining.
