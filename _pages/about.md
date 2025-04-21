@@ -13,7 +13,11 @@ I am a dedicated researcher advancing AI in healthcare, with a particular focus 
 
 My research focuses on two main areas: Medical Image Analysis with Deep Learning (automatic medical image segmentation, multi-modal learning, foundation models in medical domain, clinical-oriented AI solutions for healthcare) and Trustworthy AI (fairness, explainability, robustness). I strive to bridge the gap between cutting-edge AI and practical healthcare applications. **If you’re interested in Medical Image Analysis, or Trustworthy AI,  please don’t hesitate to reach out—I’m eager to explore collaboration opportunities.**
 
-# 🔥 News  
+# 🔥 News
+- *2025.05*: &nbsp;🎉 One Abstract Paper accepted by **The 71st COMP Annual Scientific Meeting (ASM)** as an **Oral** talk.
+- *2025.04*: &nbsp;🎉 One Paper accepted by **Medical Physics**.
+- *2025.03*: &nbsp;🎉 One Paper accepted by **IJCNN 2025**.
+- *2025.03*: &nbsp;💼 I am serving as PC mebmber on **CVPR 2025**, **MICCAI 2025**, and **NeurIPS 2025**.
 - *2025.02*: &nbsp;💼 I am serving as PC mebmber on **IJCAI 2025**.
 - *2024.10*: &nbsp;🎉 Two papers accepted by **WACV 2025**.
 - *2024.08*: &nbsp;💼 I start working at Henry Ford Health. 
@@ -80,7 +84,7 @@ Yao Qiang, **Chengyin Li**, Marco Brocanelli, and Dongxiao Zhu
 - *2017 - 2018*, Teaching Assistant for CSC 4800 Data Mining.
 
 # 💼 Academic Service
-- **Conference Program Committee Member/Reviewer**: IJCAI 2024-2025, NeurIPS 2023-2024, CVPR 2024-2025, MICCAI 2023-2024, ICML 2025, AISTATS 2025, ICLR 2025, ICCV 2025
+- **Conference Program Committee Member/Reviewer**: IJCAI 2024-2025, NeurIPS 2023-2025, CVPR 2024-2025, MICCAI 2023-2025, ICML 2025, AISTATS 2025, ICLR 2025, ICCV 2025
 - **Journal Reviewer**: IEEE Transactions on Medical Imaging, Transactions on Machine Learning Research (TMLR), Medical Physics, Scientific Reports, Smart Health, BMC Genomics, Journal of Medical Imaging
 
 
