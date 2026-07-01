@@ -1,0 +1,6 @@
+- title: "Medical Image Segmentation &amp; Foundation Models"
+  text: "2D/3D multi-organ and multi-modal CT/MR segmentation with transformer and SAM-style foundation models, including FocalUNETR, MulModSeg, and AutoProSAM."
+- title: "Adaptive Radiotherapy &amp; Clinical AI"
+  text: "Research on segmentation and registration methods for MRI-guided adaptive radiotherapy, drawing on prior-fraction information and robust modeling."
+- title: "Robust &amp; Reliable Deep Learning"
+  text: "Methods for fairness, explainability, and robustness that help deep models stay dependable in practice, such as FairViT and AttCAT."

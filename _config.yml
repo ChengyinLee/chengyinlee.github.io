@@ -1,55 +1,38 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
 # Site Settings
 title                    : "Chengyin Li"
-description              : "Reasearcher and Programmer in Radiation Oncology, Henry Ford Health"
-repository               : "ChengyinLee/chengyinli.github.io"
+description              : "Researcher in AI for medical imaging, focusing on segmentation, adaptive radiotherapy, and foundation models. Department of Radiation Oncology, Henry Ford Health."
+url                      : "https://chengyinlee.github.io"
+repository               : "ChengyinLee/chengyinlee.github.io"
+lang                     : "en"
 google_scholar_stats_use_cdn : false
+# google_analytics_id    : "G-XXXXXXX"   # add your GA4 ID to enable analytics
 
-# Site Author
+# Site Author / profile
 author:
-  name             : "Chengyin Li (李成印)"
-  avatar           : "images/chengyin_web.png"
-  bio              : "Henry Ford Health"
-  location         : "MI, USA"
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=GeL7DtsAAAAJ"
+  name             : "Chengyin Li"
+  name_cn          : "李成印"
+  title            : "AI Researcher in Medical Imaging, Adaptive Radiotherapy, and Foundation Models"
+  affiliation      : "Department of Radiation Oncology, Henry Ford Health"
+  location         : "Detroit, MI, USA"
+  avatar           : "/images/chengyin_web.png"
+  blurb            : "My research develops deep-learning methods for medical image analysis, focusing on 3D CT/MR segmentation, adaptive radiotherapy, and medical foundation models."
   email            : "cli6@hfhs.org"
-  researchgate     : 
-  uri              : 
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : # "ChengyinLee"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : "chengyin-li-a4262862" # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : # "weizeming25"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  googlescholar    : "https://scholar.google.com/citations?user=GeL7DtsAAAAJ&hl=en"
+  github           : "ChengyinLee"
+  linkedin         : "chengyin-li-a4262862"
+  dblp             : "https://dblp.org/pid/262/6036.html"
+  orcid            :   # add your ORCID iD URL here to show the link
+  cv               : "/chengyin_cv.pdf"
 
+# Headline metrics (Google Scholar, June 2026). `citations` auto-updates
+# if the optional Scholar-crawler GitHub Action is enabled (see README).
+metrics:
+  show             : true    # collapsible metrics band (set false to remove entirely)
+  citations        : 599
+  hindex           : 10
+  i10index         : 12
+  publications     : "20+"
+  updated          : "June 2026"
 
 # Reading Files
 include:
@@ -73,9 +56,6 @@ exclude:
   - LICENSE
   - README
   - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
   - config
   - gulpfile.js
   - log
@@ -89,14 +69,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -111,25 +89,21 @@ kramdown:
 
 # Defaults
 defaults:
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: default
-      author_profile: true
-
+      author_profile: false
 
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  style: compressed
 
 # Outputting
 permalink: /:categories/:title/
-timezone: America/Detroit # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: America/Detroit
 
 # Plugins
 plugins:
@@ -138,17 +112,15 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-redirect-from
   - jemoji
 
-
 # HTML Compression
-# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:

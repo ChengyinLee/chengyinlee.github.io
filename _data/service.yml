@@ -1,0 +1,25 @@
+editor:
+  - "Guest Editor, JAIKE: Journal of Artificial Intelligence and Knowledge Engineering (2025)"
+program_committee:
+  - { venue: "CVPR", years: "2024–2026" }
+  - { venue: "NeurIPS", years: "2024–2026" }
+  - { venue: "MICCAI", years: "2023–2026" }
+  - { venue: "IJCAI", years: "2024–2026" }
+  - { venue: "WACV", years: "2025–2026" }
+  - { venue: "ICCV", years: "2025" }
+  - { venue: "ICML", years: "2025" }
+  - { venue: "ECCV", years: "2026" }
+  - { venue: "ICLR", years: "2026" }
+  - { venue: "AISTATS", years: "2025–2026" }
+  - { venue: "ECAI", years: "2025" }
+  - { venue: "AAAI", years: "2026" }
+journals:
+  - { venue: "Medical Physics", years: "2024–2025" }
+  - { venue: "IEEE Trans. on Medical Imaging (TMI)", years: "2023–2025" }
+  - { venue: "Trans. on Machine Learning Research (TMLR)", years: "2024–2025" }
+  - { venue: "Computers in Biology and Medicine", years: "2025" }
+  - { venue: "Journal of Medical Imaging", years: "2024" }
+  - { venue: "Smart Health", years: "2023" }
+  - { venue: "Scientific Reports (Nature)", years: "2021" }
+teaching:
+  - "Graduate Teaching Assistant, Computer &amp; Information Engineering, The Chinese University of Hong Kong (Shenzhen), 2017–2018"
