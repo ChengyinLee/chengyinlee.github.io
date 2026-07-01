@@ -10,7 +10,7 @@ google_scholar_stats_use_cdn : false
 # Site Author / profile
 author:
   name             : "Chengyin Li"
-  name_cn          : "李成印"
+  name_cn          : ""
   title            : "AI Researcher in Medical Imaging, Adaptive Radiotherapy, and Foundation Models"
   affiliation      : "Department of Radiation Oncology, Henry Ford Health"
   location         : "Detroit, MI, USA"

@@ -67,7 +67,7 @@
     <div class="container hero__inner">
       <div class="hero__text">
         <p class="eyebrow">{{ author.affiliation }}</p>
-        <h1 class="hero__name">{{ author.name }} <span class="hero__cn">{{ author.name_cn }}</span></h1>
+        <h1 class="hero__name">{{ author.name }}{% if author.name_cn %} <span class="hero__cn">{{ author.name_cn }}</span>{% endif %}</h1>
         <p class="hero__title">{{ author.title }}</p>
         <p class="hero__blurb">{{ author.blurb }}</p>
         <div class="hero__links">
@@ -245,7 +245,7 @@
   <footer class="footer" id="contact">
     <div class="container footer__inner">
       <div>
-        <h2 class="footer__name">{{ author.name }} <span class="hero__cn">{{ author.name_cn }}</span></h2>
+        <h2 class="footer__name">{{ author.name }}{% if author.name_cn %} <span class="hero__cn">{{ author.name_cn }}</span>{% endif %}</h2>
         <p class="footer__sub">{{ author.title }} · {{ author.location }}</p>
       </div>
       <div class="footer__links">
