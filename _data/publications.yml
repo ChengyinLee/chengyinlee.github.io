@@ -10,9 +10,10 @@
       authors: "Rafi Ibn Sultan, Chengyin Li, Hui Zhu, Prashant Khanduri, Marco Brocanelli, Dongxiao Zhu"
       venue: "ECAI"
       year: 2025
+      url: "https://arxiv.org/abs/2311.11319"
     - title: "Leveraging Prior Fractions to Improve Segmentation in Fractionated Adaptive Radiotherapy"
       authors: "Chengyin Li, Doris Rusu, Jennifer Dolan, Parag J. Parikh, Kundan Thind"
-      venue: "Annual Scientific Meeting (ASM)"
+      venue: "COMP Annual Scientific Meeting (ASM)"
       year: 2025
       note: "Oral"
     - title: "MulModSeg: Enhancing Unpaired Multi-Modal Medical Image Segmentation with Modality-Conditioned Text Embedding and Alternating Training"
@@ -27,8 +28,9 @@
       url: "https://arxiv.org/abs/2308.14936"
     - title: "On the Implementation and Evaluation of Loss Functions for Robust Multiple Anatomy Segmentation on CT Images"
       authors: "Chengyin Li, Rafi Ibn Sultan, Hassan Bagher-Ebadian, Yao Qiang, Kundan Thind, Dongxiao Zhu, Indrin Chetty"
-      venue: "ICCR"
+      venue: "Int'l Conf. on Computers in Radiation Therapy (ICCR)"
       year: 2024
+      url: "https://www.iccr2024.org/papers/526351.pdf"
     - title: "FocalUNETR: A Focal Transformer for Boundary-aware Prostate Segmentation using CT Images"
       authors: "Chengyin Li, Yao Qiang, Rafi Ibn Sultan, Hassan Bagher-Ebadian, Prashant Khanduri, Indrin J. Chetty, Dongxiao Zhu"
       venue: "MICCAI"
@@ -44,6 +46,7 @@
       authors: "Yao Qiang, Chengyin Li, Prashant Khanduri, Dongxiao Zhu"
       venue: "IJCNN"
       year: 2025
+      url: "https://arxiv.org/abs/2309.08035"
     - title: "Fairness-aware Vision Transformer via Debiased Self-Attention"
       authors: "Yao Qiang, Chengyin Li, Prashant Khanduri, Dongxiao Zhu"
       venue: "ECCV"
@@ -53,6 +56,7 @@
       authors: "Mohammad Peivandi, Jason Zhang, Michael Lu, Chengyin Li, Dongxiao Zhu, Zhifeng Kou"
       venue: "ISBI"
       year: 2024
+      url: "https://arxiv.org/abs/2310.06162"
     - title: "Negative Flux Aggregation to Estimate Feature Attributions"
       authors: "Xin Li, Deng Pan, Chengyin Li, Yao Qiang, Dongxiao Zhu"
       venue: "IJCAI"
@@ -80,10 +84,12 @@
       authors: "Prashant Khanduri, Chengyin Li, Rafi Ibn Sultan, Yao Qiang, Joerg Kliewer, Dongxiao Zhu"
       venue: "Transactions on Machine Learning Research (TMLR)"
       year: 2026
+      url: "https://openreview.net/pdf/5bbd1c8d4dc901aad896d7da28ad0eaf531efb4e.pdf"
     - title: "Enhancing CT Image Segmentation Accuracy Through Ensemble Loss Function Optimization"
       authors: "Chengyin Li, Rafi Ibn Sultan, Hassan Bagher-Ebadian, Yao Qiang, Kundan Thind, Dongxiao Zhu, Indrin J. Chetty"
       venue: "Medical Physics"
       year: 2025
+      url: "https://doi.org/10.1002/mp.17848"
     - title: "A New Architecture Combining Convolutional and Transformer-Based Networks for Automatic 3D Multi-Organ Segmentation on CT Images"
       authors: "Chengyin Li, Hassan Bagher-Ebadian, Rafi Ibn Sultan, Mohamed Elshaikh, Benjamin Movsas, Dongxiao Zhu, Indrin J. Chetty"
       venue: "Medical Physics"
@@ -93,6 +99,7 @@
       authors: "Chengyin Li, Rhea E. Sullivan, Dongxiao Zhu, Steven D. Hicks"
       venue: "Pediatric Research"
       year: 2022
+      url: "https://doi.org/10.1038/s41390-022-02206-5"
 - group: "Workshops"
   tag: "W"
   items:

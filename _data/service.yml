@@ -20,6 +20,6 @@ journals:
   - { venue: "Computers in Biology and Medicine", years: "2025" }
   - { venue: "Journal of Medical Imaging", years: "2024" }
   - { venue: "Smart Health", years: "2023" }
-  - { venue: "Scientific Reports (Nature)", years: "2021" }
+  - { venue: "Scientific Reports (Nature Portfolio)", years: "2021" }
 teaching:
   - "Graduate Teaching Assistant, Computer &amp; Information Engineering, The Chinese University of Hong Kong (Shenzhen), 2017–2018"

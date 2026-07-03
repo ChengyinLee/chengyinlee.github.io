@@ -29,6 +29,23 @@
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ site.google_analytics_id }}');</script>
   {% endif %}
   <script>(function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ author.name }}",
+    "url": "{{ site.url }}",
+    "image": "{{ author.avatar | absolute_url }}",
+    "jobTitle": "{{ author.title }}",
+    "worksFor": { "@type": "Organization", "name": "{{ author.affiliation }}" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Wayne State University" },
+    "sameAs": [
+      "{{ author.googlescholar }}",
+      "https://www.linkedin.com/in/{{ author.linkedin }}",
+      "{{ author.dblp }}"
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -36,6 +53,7 @@
 {% capture ic_scholar %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1 2.5 3 6 3s6-2 6-3v-5"/></svg>{% endcapture %}
 {% capture ic_linkedin %}<svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>{% endcapture %}
 {% capture ic_cv %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/><path d="M16 13H8M16 17H8M10 9H8"/></svg>{% endcapture %}
+{% capture ic_dblp %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h13M4 12h16M4 18h10"/></svg>{% endcapture %}
 
 <header class="nav" id="nav">
   <div class="container nav__inner">
@@ -74,6 +92,7 @@
           <a class="hlink" href="mailto:{{ author.email }}">{{ ic_mail }}<span>Email</span></a>
           <a class="hlink" href="{{ author.googlescholar }}" target="_blank" rel="noopener">{{ ic_scholar }}<span>Google Scholar</span></a>
           <a class="hlink" href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank" rel="noopener">{{ ic_linkedin }}<span>LinkedIn</span></a>
+          {% if author.dblp %}<a class="hlink" href="{{ author.dblp }}" target="_blank" rel="noopener">{{ ic_dblp }}<span>DBLP</span></a>{% endif %}
           {% if author.orcid %}<a class="hlink" href="{{ author.orcid }}" target="_blank" rel="noopener"><span>ORCID</span></a>{% endif %}
           <a class="hlink hlink--cv" href="{{ author.cv | relative_url }}" target="_blank" rel="noopener">{{ ic_cv }}<span>Curriculum Vitae</span></a>
         </div>
@@ -87,8 +106,8 @@
   {% if m.show %}
   <section class="metrics" aria-label="Research impact">
     <div class="container">
-      <button class="metrics__toggle" id="metricsToggle" aria-expanded="false" aria-controls="metricsPanel">Research metrics<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button>
-      <div class="metrics__panel" id="metricsPanel" hidden>
+      <button class="metrics__toggle open" id="metricsToggle" aria-expanded="true" aria-controls="metricsPanel">Research metrics<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button>
+      <div class="metrics__panel" id="metricsPanel">
         <div class="metrics__row">
           <div class="metric"><span class="metric__num" id="total_cit">{{ m.citations }}</span><span class="metric__label">Citations</span></div>
           <div class="metric"><span class="metric__num">{{ m.hindex }}</span><span class="metric__label">h-index</span></div>
@@ -148,17 +167,22 @@
       <div class="disclosure">
         <button class="disclosure__h" data-target="selList" aria-expanded="true">Selected<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button>
         <div class="disclosure__body" id="selList">
-          <ol class="pubs">
-            {% for pub in site.data.selected %}
-            <li class="pub">
-              <span class="pub__tag">{{ pub.year }}</span>
-              <div class="pub__body">
-                <span class="pub__title">{% if pub.url %}<a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</span>
-                <span class="pub__cite">{{ pub.authors | replace: 'Chengyin Li', '<strong class="me">Chengyin Li</strong>' }}. <span class="pub__venue">{{ pub.venue }}</span>, {{ pub.year }}.{% if pub.note %} <span class="pub__note">{{ pub.note }}</span>{% endif %}</span>
-              </div>
-            </li>
-            {% endfor %}
-          </ol>
+          {% for g in site.data.selected %}
+          <div class="pubgroup">
+            <h3 class="pubgroup__h">{{ g.group }}</h3>
+            <ol class="pubs">
+              {% for pub in g.items %}
+              <li class="pub">
+                <span class="pub__tag">{{ pub.year }}</span>
+                <div class="pub__body">
+                  <span class="pub__title">{% if pub.url %}<a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</span>
+                  <span class="pub__cite">{{ pub.authors | replace: 'Chengyin Li', '<strong class="me">Chengyin Li</strong>' }}. <span class="pub__venue">{{ pub.venue }}</span>, {{ pub.year }}.{% if pub.note %} <span class="pub__note">{{ pub.note }}</span>{% endif %}</span>
+                </div>
+              </li>
+              {% endfor %}
+            </ol>
+          </div>
+          {% endfor %}
         </div>
       </div>
 
@@ -252,6 +276,7 @@
         <a href="mailto:{{ author.email }}" aria-label="Email">{{ ic_mail }}</a>
         <a href="{{ author.googlescholar }}" target="_blank" rel="noopener" aria-label="Google Scholar">{{ ic_scholar }}</a>
         <a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">{{ ic_linkedin }}</a>
+        {% if author.dblp %}<a href="{{ author.dblp }}" target="_blank" rel="noopener" aria-label="DBLP">{{ ic_dblp }}</a>{% endif %}
         <a href="{{ author.cv | relative_url }}" target="_blank" rel="noopener" aria-label="CV">{{ ic_cv }}</a>
       </div>
     </div>
