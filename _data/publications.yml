@@ -6,6 +6,10 @@
       authors: "Rafi Ibn Sultan, Hui Zhu, Xiao Zhou, Chengyin Li, Prashant Khanduri, Marco Brocanelli, Dongxiao Zhu"
       venue: "CVPR"
       year: 2026
+    - title: "MedPlex: Deep Vision-Language Co-Adaptation for Clinically Grounded Medical Segmentation"
+      authors: "Rafi Ibn Sultan, Hui Zhu, Chengyin Li, Dongxiao Zhu"
+      venue: "BMVC"
+      year: 2026
     - title: "GeoSAM: Fine-tuning SAM with Sparse and Dense Visual Prompting for Automated Segmentation of Mobility Infrastructure"
       authors: "Rafi Ibn Sultan, Chengyin Li, Hui Zhu, Prashant Khanduri, Marco Brocanelli, Dongxiao Zhu"
       venue: "ECAI"
@@ -80,6 +84,14 @@
 - group: "Journal Articles"
   tag: "J"
   items:
+    - title: "Cross-Fraction Prior Learning for Scalable Organ-at-Risk Segmentation in Abdominal MR-Guided Radiotherapy"
+      authors: "Chengyin Li, Doris Rusu, Rafi Ibn Sultan, Hassan Bagher-Ebadian, Anthony Doemer, Dongxiao Zhu, Parag J. Parikh, Kundan Thind"
+      venue: "Medical Physics"
+      year: 2026
+    - title: "A Neighborhood Attention Transformer Network for Enhanced 3D Segmentation of the Left Anterior Descending Artery"
+      authors: "Rafi Ibn Sultan, Chengyin Li, Yiannos Demetriou, Ahmed I. Ghanem, Joshua Kim, Justine Cunningham, Hassan Bagher-Ebadian, Dongxiao Zhu, Kundan Thind"
+      venue: "Medical Physics"
+      year: 2026
     - title: "On Federated Compositional Optimization: Algorithms, Analysis, and Guarantees"
       authors: "Prashant Khanduri, Chengyin Li, Rafi Ibn Sultan, Yao Qiang, Joerg Kliewer, Dongxiao Zhu"
       venue: "Transactions on Machine Learning Research (TMLR)"

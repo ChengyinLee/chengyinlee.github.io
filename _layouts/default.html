@@ -103,22 +103,6 @@
     </div>
   </section>
 
-  {% if m.show %}
-  <section class="metrics" aria-label="Research impact">
-    <div class="container">
-      <button class="metrics__toggle open" id="metricsToggle" aria-expanded="true" aria-controls="metricsPanel">Research metrics<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button>
-      <div class="metrics__panel" id="metricsPanel">
-        <div class="metrics__row">
-          <div class="metric"><span class="metric__num" id="total_cit">{{ m.citations }}</span><span class="metric__label">Citations</span></div>
-          <div class="metric"><span class="metric__num">{{ m.hindex }}</span><span class="metric__label">h-index</span></div>
-          <div class="metric"><span class="metric__num">{{ m.i10index }}</span><span class="metric__label">i10-index</span></div>
-          <div class="metric"><span class="metric__num">{{ m.publications }}</span><span class="metric__label">Publications</span></div>
-        </div>
-        <p class="metrics__cap">As of {{ m.updated }} · source <a href="{{ author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a></p>
-      </div>
-    </div>
-  </section>
-  {% endif %}
 
   <section class="section" id="about">
     <div class="container narrow">
@@ -167,22 +151,17 @@
       <div class="disclosure">
         <button class="disclosure__h" data-target="selList" aria-expanded="true">Selected<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button>
         <div class="disclosure__body" id="selList">
-          {% for g in site.data.selected %}
-          <div class="pubgroup">
-            <h3 class="pubgroup__h">{{ g.group }}</h3>
-            <ol class="pubs">
-              {% for pub in g.items %}
-              <li class="pub">
-                <span class="pub__tag">{{ pub.year }}</span>
-                <div class="pub__body">
-                  <span class="pub__title">{% if pub.url %}<a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</span>
-                  <span class="pub__cite">{{ pub.authors | replace: 'Chengyin Li', '<strong class="me">Chengyin Li</strong>' }}. <span class="pub__venue">{{ pub.venue }}</span>, {{ pub.year }}.{% if pub.note %} <span class="pub__note">{{ pub.note }}</span>{% endif %}</span>
-                </div>
-              </li>
-              {% endfor %}
-            </ol>
-          </div>
-          {% endfor %}
+          <ol class="pubs">
+            {% for pub in site.data.selected %}
+            <li class="pub">
+              <span class="pub__tag">{{ pub.year }}</span>
+              <div class="pub__body">
+                <span class="pub__title">{% if pub.url %}<a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</span>
+                <span class="pub__cite">{{ pub.authors | replace: 'Chengyin Li', '<strong class="me">Chengyin Li</strong>' }}. <span class="pub__venue">{{ pub.venue }}</span>, {{ pub.year }}.{% if pub.note %} <span class="pub__note">{{ pub.note }}</span>{% endif %}</span>
+              </div>
+            </li>
+            {% endfor %}
+          </ol>
         </div>
       </div>
 

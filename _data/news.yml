@@ -1,4 +1,10 @@
 # Reverse-chronological news feed. `text` may contain inline HTML.
+- date: "2026.08"
+  text: "<strong>MedPlex</strong> accepted to <strong>BMVC 2026</strong>."
+- date: "2026.08"
+  text: "Paper accepted to <strong>Medical Physics</strong>: Cross-Fraction Prior Learning for organ-at-risk segmentation in abdominal MR-guided radiotherapy."
+- date: "2026.08"
+  text: "Paper accepted to <strong>Medical Physics</strong>: a Neighborhood Attention Transformer for 3D segmentation of the left anterior descending artery."
 - date: "2026.05"
   icon: "🎤"
   text: "<strong>Snap Oral</strong> accepted at the <strong>2026 Joint AAPM|COMP Annual Meeting</strong> (Vancouver), to appear in <em>Medical Physics</em>."

@@ -1,65 +1,73 @@
-# Selected publications, grouped by authorship role and newest-first within each group.
-# Full list lives in publications.yml. `me` (Chengyin Li) is highlighted in the template.
-- group: "First-authored"
-  items:
-    - title: "MulModSeg: Enhancing Unpaired Multi-Modal Medical Image Segmentation with Modality-Conditioned Text Embedding and Alternating Training"
-      authors: "Chengyin Li, Hui Zhu, Rafi Ibn Sultan, Hassan Bagher-Ebadian, Prashant Khanduri, Indrin Chetty, Kundan Thind, Dongxiao Zhu"
-      venue: "WACV"
-      year: 2025
-      url: "https://arxiv.org/abs/2411.15576"
-    - title: "AutoProSAM: Automated Prompting SAM for 3D Multi-Organ Segmentation"
-      authors: "Chengyin Li, Prashant Khanduri, Yao Qiang, Rafi Ibn Sultan, Indrin Chetty, Dongxiao Zhu"
-      venue: "WACV"
-      year: 2025
-      url: "https://arxiv.org/abs/2308.14936"
-    - title: "Enhancing CT Image Segmentation Accuracy Through Ensemble Loss Function Optimization"
-      authors: "Chengyin Li, Rafi Ibn Sultan, Hassan Bagher-Ebadian, Yao Qiang, Kundan Thind, Dongxiao Zhu, Indrin J. Chetty"
-      venue: "Medical Physics"
-      year: 2025
-      url: "https://doi.org/10.1002/mp.17848"
-    - title: "On the Implementation and Evaluation of Loss Functions for Robust Multiple Anatomy Segmentation on CT Images"
-      authors: "Chengyin Li, Rafi Ibn Sultan, Hassan Bagher-Ebadian, Yao Qiang, Kundan Thind, Dongxiao Zhu, Indrin Chetty"
-      venue: "Int'l Conf. on Computers in Radiation Therapy (ICCR)"
-      year: 2024
-      url: "https://www.iccr2024.org/papers/526351.pdf"
-    - title: "FocalUNETR: A Focal Transformer for Boundary-aware Prostate Segmentation using CT Images"
-      authors: "Chengyin Li, Yao Qiang, Rafi Ibn Sultan, Hassan Bagher-Ebadian, Prashant Khanduri, Indrin J. Chetty, Dongxiao Zhu"
-      venue: "MICCAI"
-      year: 2023
-      url: "https://link.springer.com/chapter/10.1007/978-3-031-43898-1_57"
-    - title: "A New Architecture Combining Convolutional and Transformer-Based Networks for Automatic 3D Multi-Organ Segmentation on CT Images"
-      authors: "Chengyin Li, Hassan Bagher-Ebadian, Rafi Ibn Sultan, Mohamed Elshaikh, Benjamin Movsas, Dongxiao Zhu, Indrin J. Chetty"
-      venue: "Medical Physics"
-      year: 2023
-      url: "https://aapm.onlinelibrary.wiley.com/doi/10.1002/mp.16750"
-    - title: "Putting the ‘mi’ in Omics: Discovering miRNA Biomarkers for Pediatric Precision Care"
-      authors: "Chengyin Li, Rhea E. Sullivan, Dongxiao Zhu, Steven D. Hicks"
-      venue: "Pediatric Research"
-      year: 2022
-      url: "https://doi.org/10.1038/s41390-022-02206-5"
-- group: "Co-authored"
-  items:
-    - title: "WalkGPT: Grounded Vision–Language Conversation with Depth-Aware Segmentation for Pedestrian Navigation"
-      authors: "Rafi Ibn Sultan, Hui Zhu, Xiao Zhou, Chengyin Li, Prashant Khanduri, Marco Brocanelli, Dongxiao Zhu"
-      venue: "CVPR"
-      year: 2026
-    - title: "GeoSAM: Fine-tuning SAM with Sparse and Dense Visual Prompting for Automated Segmentation of Mobility Infrastructure"
-      authors: "Rafi Ibn Sultan, Chengyin Li, Hui Zhu, Prashant Khanduri, Marco Brocanelli, Dongxiao Zhu"
-      venue: "ECAI"
-      year: 2025
-      url: "https://arxiv.org/abs/2311.11319"
-    - title: "Fairness-aware Vision Transformer via Debiased Self-Attention"
-      authors: "Yao Qiang, Chengyin Li, Prashant Khanduri, Dongxiao Zhu"
-      venue: "ECCV"
-      year: 2024
-      url: "https://arxiv.org/abs/2301.13803"
-    - title: "AttCAT: Explaining Transformers via Attentive Class Activation Tokens"
-      authors: "Yao Qiang, Deng Pan, Chengyin Li, Xin Li, Rhongho Jang, Dongxiao Zhu"
-      venue: "NeurIPS"
-      year: 2022
-      url: "https://proceedings.neurips.cc/paper_files/paper/2022/file/20e45668fefa793bd9f2edf19be12c4b-Paper-Conference.pdf"
-    - title: "COVID-MobileXpert: On-device COVID-19 Patient Triage and Follow-up Using Chest X-rays"
-      authors: "Xin Li, Chengyin Li, Dongxiao Zhu"
-      venue: "BIBM"
-      year: 2020
-      url: "https://www.computer.org/csdl/proceedings-article/bibm/2020/09313217/1qmfVqaDpba"
+# Selected publications (flat, newest-first). Full list lives in publications.yml.
+- title: "Cross-Fraction Prior Learning for Scalable Organ-at-Risk Segmentation in Abdominal MR-Guided Radiotherapy"
+  authors: "Chengyin Li, Doris Rusu, Rafi Ibn Sultan, Hassan Bagher-Ebadian, Anthony Doemer, Dongxiao Zhu, Parag J. Parikh, Kundan Thind"
+  venue: "Medical Physics"
+  year: 2026
+- title: "WalkGPT: Grounded Vision–Language Conversation with Depth-Aware Segmentation for Pedestrian Navigation"
+  authors: "Rafi Ibn Sultan, Hui Zhu, Xiao Zhou, Chengyin Li, Prashant Khanduri, Marco Brocanelli, Dongxiao Zhu"
+  venue: "CVPR"
+  year: 2026
+- title: "On Federated Compositional Optimization: Algorithms, Analysis, and Guarantees"
+  authors: "Prashant Khanduri, Chengyin Li, Rafi Ibn Sultan, Yao Qiang, Joerg Kliewer, Dongxiao Zhu"
+  venue: "Transactions on Machine Learning Research (TMLR)"
+  year: 2026
+  url: "https://openreview.net/pdf/5bbd1c8d4dc901aad896d7da28ad0eaf531efb4e.pdf"
+- title: "A Neighborhood Attention Transformer Network for Enhanced 3D Segmentation of the Left Anterior Descending Artery"
+  authors: "Rafi Ibn Sultan, Chengyin Li, Yiannos Demetriou, Ahmed I. Ghanem, Joshua Kim, Justine Cunningham, Hassan Bagher-Ebadian, Dongxiao Zhu, Kundan Thind"
+  venue: "Medical Physics"
+  year: 2026
+- title: "MulModSeg: Enhancing Unpaired Multi-Modal Medical Image Segmentation with Modality-Conditioned Text Embedding and Alternating Training"
+  authors: "Chengyin Li, Hui Zhu, Rafi Ibn Sultan, Hassan Bagher-Ebadian, Prashant Khanduri, Indrin Chetty, Kundan Thind, Dongxiao Zhu"
+  venue: "WACV"
+  year: 2025
+  url: "https://arxiv.org/abs/2411.15576"
+- title: "AutoProSAM: Automated Prompting SAM for 3D Multi-Organ Segmentation"
+  authors: "Chengyin Li, Prashant Khanduri, Yao Qiang, Rafi Ibn Sultan, Indrin Chetty, Dongxiao Zhu"
+  venue: "WACV"
+  year: 2025
+  url: "https://arxiv.org/abs/2308.14936"
+- title: "Enhancing CT Image Segmentation Accuracy Through Ensemble Loss Function Optimization"
+  authors: "Chengyin Li, Rafi Ibn Sultan, Hassan Bagher-Ebadian, Yao Qiang, Kundan Thind, Dongxiao Zhu, Indrin J. Chetty"
+  venue: "Medical Physics"
+  year: 2025
+  url: "https://doi.org/10.1002/mp.17848"
+- title: "GeoSAM: Fine-tuning SAM with Sparse and Dense Visual Prompting for Automated Segmentation of Mobility Infrastructure"
+  authors: "Rafi Ibn Sultan, Chengyin Li, Hui Zhu, Prashant Khanduri, Marco Brocanelli, Dongxiao Zhu"
+  venue: "ECAI"
+  year: 2025
+  url: "https://arxiv.org/abs/2311.11319"
+- title: "On the Implementation and Evaluation of Loss Functions for Robust Multiple Anatomy Segmentation on CT Images"
+  authors: "Chengyin Li, Rafi Ibn Sultan, Hassan Bagher-Ebadian, Yao Qiang, Kundan Thind, Dongxiao Zhu, Indrin Chetty"
+  venue: "Int'l Conf. on Computers in Radiation Therapy (ICCR)"
+  year: 2024
+  url: "https://www.iccr2024.org/papers/526351.pdf"
+- title: "Fairness-aware Vision Transformer via Debiased Self-Attention"
+  authors: "Yao Qiang, Chengyin Li, Prashant Khanduri, Dongxiao Zhu"
+  venue: "ECCV"
+  year: 2024
+  url: "https://arxiv.org/abs/2301.13803"
+- title: "FocalUNETR: A Focal Transformer for Boundary-aware Prostate Segmentation using CT Images"
+  authors: "Chengyin Li, Yao Qiang, Rafi Ibn Sultan, Hassan Bagher-Ebadian, Prashant Khanduri, Indrin J. Chetty, Dongxiao Zhu"
+  venue: "MICCAI"
+  year: 2023
+  url: "https://link.springer.com/chapter/10.1007/978-3-031-43898-1_57"
+- title: "A New Architecture Combining Convolutional and Transformer-Based Networks for Automatic 3D Multi-Organ Segmentation on CT Images"
+  authors: "Chengyin Li, Hassan Bagher-Ebadian, Rafi Ibn Sultan, Mohamed Elshaikh, Benjamin Movsas, Dongxiao Zhu, Indrin J. Chetty"
+  venue: "Medical Physics"
+  year: 2023
+  url: "https://aapm.onlinelibrary.wiley.com/doi/10.1002/mp.16750"
+- title: "Putting the ‘mi’ in Omics: Discovering miRNA Biomarkers for Pediatric Precision Care"
+  authors: "Chengyin Li, Rhea E. Sullivan, Dongxiao Zhu, Steven D. Hicks"
+  venue: "Pediatric Research"
+  year: 2022
+  url: "https://doi.org/10.1038/s41390-022-02206-5"
+- title: "AttCAT: Explaining Transformers via Attentive Class Activation Tokens"
+  authors: "Yao Qiang, Deng Pan, Chengyin Li, Xin Li, Rhongho Jang, Dongxiao Zhu"
+  venue: "NeurIPS"
+  year: 2022
+  url: "https://proceedings.neurips.cc/paper_files/paper/2022/file/20e45668fefa793bd9f2edf19be12c4b-Paper-Conference.pdf"
+- title: "COVID-MobileXpert: On-device COVID-19 Patient Triage and Follow-up Using Chest X-rays"
+  authors: "Xin Li, Chengyin Li, Dongxiao Zhu"
+  venue: "BIBM"
+  year: 2020
+  url: "https://www.computer.org/csdl/proceedings-article/bibm/2020/09313217/1qmfVqaDpba"
